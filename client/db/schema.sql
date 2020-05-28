@@ -11,5 +11,6 @@ CREATE TABLE events(
   month VARCHAR (40) NOT NULL,
   day VARCHAR (40) NOT NULL,
   description VARCHAR (2000) NULL,
-  event_host VARCHAR (300) NOT NULL
+  event_host VARCHAR (300) NOT NULL,
+  max_guests VARCHAR (300) NOT NULL
 )

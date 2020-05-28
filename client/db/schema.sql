@@ -2,6 +2,8 @@ DROP DATABASE IF EXISTS events_db;
 
 CREATE DATABASE events_db;
 
+USE events_db
+
 CREATE TABLE events(
   id INT NOT NULL auto_increment, 
   photo VARCHAR (300),
@@ -14,3 +16,5 @@ CREATE TABLE events(
   event_host VARCHAR (300) NOT NULL,
   max_guests VARCHAR (300) NOT NULL
 )
+
+

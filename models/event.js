@@ -11,3 +11,7 @@ const eventSchema = new Schema({
   date:{type: Date, default: Date.now},
   time:{type: String, required: true}
 })
+
+const Event = mongoose.model('Event', eventSchema);
+
+module.exports = Event;

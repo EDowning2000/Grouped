@@ -27,7 +27,7 @@ const startStyle ={
 }
 
 
-function HomePage(){
+function LandingPage(){
   return (
     <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="desktop"/>
@@ -78,4 +78,4 @@ function HomePage(){
       </div>
   )
 }
-export default HomePage;
+export default LandingPage;

@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 
 import rectangle1 from "../../HomePageImg/home-rectangle-1@2x.png";
-
 import rectangle6 from "../../HomePageImg/home-rectangle-copy-6.png";
 import rectangle7 from "../../HomePageImg/home-rectangle-copy-7@2x.png";
 import rectangle8 from "../../HomePageImg/home-rectangle-copy-8@2x.png";

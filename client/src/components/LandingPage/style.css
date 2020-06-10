@@ -1,6 +1,6 @@
 
 
-.desktop {
+.landingpage {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
@@ -29,6 +29,8 @@ div {
   -webkit-text-size-adjust: none;
 }
 .anima-animate-enter {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter-frames 0.5s ease-in-out 1 normal forwards;
@@ -43,53 +45,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter1 {
   opacity             : 0;
-  transform           : scale(1.1);
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter1-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter1-frames 0.5s ease-in-out 1 normal forwards;
@@ -105,7 +123,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -113,7 +131,7 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter1-frames {
@@ -121,7 +139,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -129,7 +147,7 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter1-frames {
@@ -137,7 +155,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -145,7 +163,7 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter1-frames {
@@ -153,7 +171,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -161,10 +179,12 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter2 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter2-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter2-frames 0.5s ease-in-out 1 normal forwards;
@@ -179,51 +199,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter2-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter2-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter2-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter3 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter3-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter3-frames 0.5s ease-in-out 1 normal forwards;
@@ -238,51 +276,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter3-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter3-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter3-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter4 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter4-frames 0.20000000298s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter4-frames 0.20000000298s ease-in-out 1 normal forwards;
@@ -297,51 +353,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter4-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter4-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter4-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter5 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter5-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter5-frames 0.5s ease-in-out 1 normal forwards;
@@ -356,51 +430,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter5-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter5-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter5-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter6 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter6-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter6-frames 0.5s ease-in-out 1 normal forwards;
@@ -415,51 +507,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter6-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter6-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter6-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter7 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter7-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter7-frames 0.5s ease-in-out 1 normal forwards;
@@ -474,51 +584,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter7-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter7-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter7-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter8 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter8-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter8-frames 0.5s ease-in-out 1 normal forwards;
@@ -533,53 +661,69 @@ div {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter8-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter8-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter8-frames {
   0%
    
   {
+  opacity: 0;
+  transform: translate(-25px, 0);
     }
   
     
   100%
    
   {
+  opacity: 1;
+  transform: translate(0,0);
     }
 }
 .anima-animate-enter9 {
   opacity             : 0;
-  transform           : scale(1.1);
+  transform           : translate(-25px, 0);
   display             : block;
   -webkit-animation   : anima-animate-enter9-frames 0.5s ease-in-out 1 normal forwards;
   -moz-animation      : anima-animate-enter9-frames 0.5s ease-in-out 1 normal forwards;
@@ -595,7 +739,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -603,7 +747,7 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 @-moz-keyframes anima-animate-enter9-frames {
@@ -611,7 +755,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -619,7 +763,7 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 @-o-keyframes anima-animate-enter9-frames {
@@ -627,7 +771,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -635,7 +779,7 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
 @keyframes anima-animate-enter9-frames {
@@ -643,7 +787,7 @@ div {
    
   {
   opacity: 0;
-  transform: scale(1.1);
+  transform: translate(-25px, 0);
     }
   
     
@@ -651,17 +795,17 @@ div {
    
   {
   opacity: 1;
-  transform: scale(1);
+  transform: translate(0,0);
     }
 }
-.desktop .grouped {
+.landingpage .grouped {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 81px;
+  top                 : 87px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 95px;
+  left                : 59px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Futura-Bold", Helvetica, Arial, serif;
@@ -670,7 +814,7 @@ div {
   text-align          : center;
   line-height         : 40.0px;
 }
-.desktop .asafeandeasyplac {
+.landingpage .asafeandeasyplac {
   background-color    : rgba(255,255,255,0.0);
   top                 : 345px;
   height              : auto;
@@ -686,7 +830,7 @@ div {
   text-align          : center;
   line-height         : 40.0px;
 }
-.desktop .register {
+.landingpage .register {
   background-color    : rgba(255,255,255,0.0);
   top                 : 464px;
   height              : auto;
@@ -696,26 +840,26 @@ div {
   left                : 456px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
+  transition          : all 0.4s ease-in-out;
   font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
   font-size           : 29.73px;
   color               : rgba(248, 248, 251, 1.0);
   text-align          : center;
   line-height         : 40.0px;
 }
-.desktop .register {
+.landingpage .register {
   pointer-events      : auto;
 }
-.desktop .register:hover {
+.landingpage .register:hover {
   transform           : translate(5px, 0);
 }
-.desktop .register .span1 {
+.landingpage .register .span1 {
   
 }
-.desktop .register .span2 {
+.landingpage .register .span2 {
   font-family         : "Futura-Bold", Helvetica, Arial, serif;
 }
-.desktop .login {
+.landingpage .login {
   background-color    : rgba(255,255,255,0.0);
   top                 : 534px;
   height              : auto;
@@ -725,20 +869,20 @@ div {
   left                : 475px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  transition          : all 0.2s ease-in-out;
+  transition          : all 0.4s ease-in-out;
   font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
   font-size           : 29.73px;
   color               : rgba(249, 249, 251, 1.0);
   text-align          : center;
   line-height         : 40.0px;
 }
-.desktop .login {
+.landingpage .login {
   pointer-events      : auto;
 }
-.desktop .login:hover {
+.landingpage .login:hover {
   transform           : translate(5px, 0);
 }
-.desktop .rectangle {
+.landingpage .rectangle {
   background-color    : rgba(255,255,255,0.0);
   top                 : -22px;
   height              : 142px;
@@ -749,10 +893,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectangle {
-  
+.landingpage .rectangle {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy {
+.landingpage .rectanglecopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 648px;
   height              : 172px;
@@ -763,11 +908,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy {
+.landingpage .rectanglecopy {
   opacity             : 0;
-  transform           : scale(1.1);
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy2 {
+.landingpage .rectanglecopy2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 952px;
   height              : 102px;
@@ -778,10 +923,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy2 {
-  
+.landingpage .rectanglecopy2 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy3 {
+.landingpage .rectanglecopy3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 167px;
   height              : 142px;
@@ -792,7 +938,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy4 {
+.landingpage .rectanglecopy4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 167px;
   height              : 142px;
@@ -803,7 +949,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectangle1 {
+.landingpage .rectangle1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 244px;
   height              : 188px;
@@ -814,10 +960,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectangle1 {
-  
+.landingpage .rectangle1 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy8 {
+.landingpage .rectanglecopy8 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 866px;
   height              : 188px;
@@ -828,10 +975,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy8 {
-  
+.landingpage .rectanglecopy8 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy9 {
+.landingpage .rectanglecopy9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 813px;
   height              : 164px;
@@ -842,10 +990,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy9 {
-  
+.landingpage .rectanglecopy9 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy5 {
+.landingpage .rectanglecopy5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 167px;
   height              : 142px;
@@ -856,10 +1005,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy5 {
-  
+.landingpage .rectanglecopy5 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy6 {
+.landingpage .rectanglecopy6 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -41px;
   height              : 142px;
@@ -870,10 +1020,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy6 {
-  
+.landingpage .rectanglecopy6 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy13 {
+.landingpage .rectanglecopy13 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 790px;
   height              : 210px;
@@ -884,10 +1035,11 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy13 {
-  
+.landingpage .rectanglecopy13 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
 }
-.desktop .rectanglecopy7 {
+.landingpage .rectanglecopy7 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 46px;
   height              : 121px;
@@ -898,9 +1050,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.desktop .rectanglecopy7 {
+.landingpage .rectanglecopy7 {
   opacity             : 0;
-  transform           : scale(1.1);
+  transform           : translate(-25px, 0);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

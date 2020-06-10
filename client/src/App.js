@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Register from "./components/RegisterPage/Register"
+import LandingPage from './components/LandingPage/LandingPage'
 
 
 function App() {
   return (
-   <Register></Register>
+   <LandingPage></LandingPage>
   );
 }
 

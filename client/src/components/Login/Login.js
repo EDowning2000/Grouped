@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
-import rectangle1 from "../../loginImg/login-rectangle-1@2x.png";
+
+  import rectangle1 from "../../loginImg/login-rectangle-1@2x.png";
   import rectangle2 from "../../loginImg/login-rectangle-copy-2@2x.png";
   import rectangle5 from "../../loginImg/login-rectangle-copy-5@2x.png";
   import rectangle7 from "../../loginImg/login-rectangle-copy-7@2x.png";
@@ -20,9 +21,6 @@ const firstDivStyle ={
       position:"relative",
        margin:"auto"
   };
-  
-  
-
 
 function Login(){
   return (

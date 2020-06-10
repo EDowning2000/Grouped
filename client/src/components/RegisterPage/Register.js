@@ -12,7 +12,6 @@ import rectangle11 from "../../registerImg/register-rectangle-copy-11.png";
 import rectangle13 from "../../registerImg/register-rectangle-copy-13@2x.png";
 import rectangle14 from "../../registerImg/register-rectangle-copy@2x.png";
 
-
 const firstDivStyle ={
   margin:"0",
   background: "rgba(22,24,56,1.0)"

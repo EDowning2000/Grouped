@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+
 import rectangle1 from "../../LandingPageImg/desktop-rectangle-1@2x.png";
 import rectangle2 from "../../LandingPageImg/desktop-rectangle-copy-2@2x.png";
 import rectangle3 from "../../LandingPageImg/desktop-rectangle-copy-3@2x.png";
@@ -12,7 +13,6 @@ import rectangle9 from "../../LandingPageImg/desktop-rectangle-copy-9@2x.png";
 import rectangle13 from "../../LandingPageImg/desktop-rectangle-copy-13@2x.png";
 import rectangle14 from "../../LandingPageImg/desktop-rectangle-copy@2x.png";
 import rectangle15 from "../../LandingPageImg/desktop-rectangle@2x.png";
-
 
 const firstDivStyle ={
 margin:"0",

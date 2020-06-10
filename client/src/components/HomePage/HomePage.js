@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 import rectangle1 from "../../HomePageImg/home-rectangle-1@2x.png";
-import rectangle2 from "../../HomePageImg/home-rectangle-copy-2@2x.png";
+
 import rectangle6 from "../../HomePageImg/home-rectangle-copy-6.png";
 import rectangle7 from "../../HomePageImg/home-rectangle-copy-7@2x.png";
 import rectangle8 from "../../HomePageImg/home-rectangle-copy-8@2x.png";
@@ -26,44 +26,44 @@ function HomePage(){
   return(
     <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="home"/>
-        <div class="home anima-word-break ">
+        <div className="home anima-word-break ">
             <div style={startStyle}>
 
                 <img alt="rectangle pic" anima-src={rectangle6}
-                class="rectangle anima-animate-enter" src={rectangle6}/>
+                className="rectangle anima-animate-enter" src={rectangle6}/>
 
-                <img alt="rectangle pic" anima-src={rectangle14} class="rectanglecopy anima-animate-enter1" src={rectangle14}/>
+                <img alt="rectangle pic" anima-src={rectangle14} className="rectanglecopy anima-animate-enter1" src={rectangle14}/>
 
-                <img alt="rectangle pic" anima-src={rectangle1} class="rectangle1 anima-animate-enter3" src={rectangle1}/>
+                <img alt="rectangle pic" anima-src={rectangle1} className="rectangle1 anima-animate-enter3" src={rectangle1}/>
 
-                <img alt="rectangle pic" anima-src={rectangle8} class="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
+                <img alt="rectangle pic" anima-src={rectangle8} className="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
 
-                <img alt="rectangle pic" anima-src={rectangle9} class="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
+                <img alt="rectangle pic" anima-src={rectangle9} className="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
 
-                <img alt="rectangle pic" anima-src={rectangle15} class="rectanglecopy5 anima-animate-enter6" src={rectangle15}/>
+                <img alt="rectangle pic" anima-src={rectangle15} className="rectanglecopy5 anima-animate-enter6" src={rectangle15}/>
 
-                <img alt="rectangle pic" anima-src={rectangle6} class="rectanglecopy6 anima-animate-enter7" src={rectangle6}/>
+                <img alt="rectangle pic" anima-src={rectangle6} className="rectanglecopy6 anima-animate-enter7" src={rectangle6}/>
 
-                <img alt="rectangle pic" anima-src={rectangle13} class="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
+                <img alt="rectangle pic" anima-src={rectangle13} className="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
 
-                <img alt="rectangle pic" anima-src={rectangle7} class="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
+                <img alt="rectangle pic" anima-src={rectangle7} className="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
 
-                <div class="grouped">
+                <div className="grouped">
                     Grouped
                 </div>
-                <div class="home1 anima-smart-layers-pointers ">
+                <div className="home1 anima-smart-layers-pointers ">
                     Home
                 </div>
-                <div class="profile anima-smart-layers-pointers ">
+                <div className="profile anima-smart-layers-pointers ">
                     Profile
                 </div>
-                <div class="about anima-smart-layers-pointers ">
+                <div className="about anima-smart-layers-pointers ">
                     About
                 </div>
-                <div class="createnewevent anima-smart-layers-pointers ">
+                <div className="createnewevent anima-smart-layers-pointers ">
                     Create New Event
                 </div>
-                <div class="searchevents anima-smart-layers-pointers ">
+                <div className="searchevents anima-smart-layers-pointers ">
                     Search Events
                 </div>
             </div>

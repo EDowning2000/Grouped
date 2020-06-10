@@ -27,57 +27,57 @@ const firstDivStyle ={
     return (
 <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="register"/>
-        <div class="register anima-word-break ">
+        <div className="register anima-word-break ">
             <div style={startStyle}>
 
-                <img alt="rectangle pic" anima-src={rectangle4} class="rectangle anima-animate-enter" src={rectangle4}/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectangle anima-animate-enter" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src={rectangle2} class="rectanglecopy anima-animate-enter1" src={rectangle2} />
+                <img alt="rectangle pic" anima-src={rectangle2} className="rectanglecopy anima-animate-enter1" src={rectangle2} />
 
-                <img alt="rectangle pic" anima-src={rectangle2}  class="rectanglecopy2 anima-animate-enter2" src={rectangle2} />
+                <img alt="rectangle pic" anima-src={rectangle2}  className="rectanglecopy2 anima-animate-enter2" src={rectangle2} />
 
-                <img alt="rectangle pic" anima-src={rectangle4}  class="rectanglecopy3" src={rectangle4} />
+                <img alt="rectangle pic" anima-src={rectangle4}  className="rectanglecopy3" src={rectangle4} />
 
-                <img alt="rectangle pic" anima-src={rectangle4} class="rectanglecopy4" src={rectangle4}/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectanglecopy4" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src={rectangle1} class="rectangle1 anima-animate-enter3" src={rectangle1}/>
+                <img alt="rectangle pic" anima-src={rectangle1} className="rectangle1 anima-animate-enter3" src={rectangle1}/>
 
-                <img alt="rectangle pic" anima-src={rectangle8} class="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
+                <img alt="rectangle pic" anima-src={rectangle8} className="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
 
-                <img alt="rectangle pic" anima-src={rectangle9} class="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
+                <img alt="rectangle pic" anima-src={rectangle9} className="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
 
-                <img alt="rectangle pic" anima-src={rectangle4} class="rectanglecopy5 anima-animate-enter6" src={rectangle4}/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectanglecopy5 anima-animate-enter6" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src={rectangle6} class="rectanglecopy6 anima-animate-enter7" src={rectangle6}/>
+                <img alt="rectangle pic" anima-src={rectangle6} className="rectanglecopy6 anima-animate-enter7" src={rectangle6}/>
 
-                <img alt="rectangle pic" anima-src={rectangle13} class="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
+                <img alt="rectangle pic" anima-src={rectangle13} className="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
 
-                <img alt="rectangle pic" anima-src={rectangle7} class="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
+                <img alt="rectangle pic" anima-src={rectangle7} className="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
 
-                <div class="joinus">
+                <div className="joinus">
                     Join Us
                 </div>
-                <div class="rectangle2">
+                <div className="rectangle2">
                 </div>
-                <div class="rectanglecopy10">
+                <div className="rectanglecopy10">
                 </div>
-                <img alt="rectangle pic" anima-src={rectangle11} class="rectanglecopy11" src={rectangle11}/>
+                <img alt="rectangle pic" anima-src={rectangle11} className="rectanglecopy11" src={rectangle11}/>
 
-                <div class="username">
+                <div className="username">
                     username
                 </div>
-                <div class="password">
+                <div className="password">
                     password
                 </div>
-                <div class="join anima-smart-layers-pointers ">
+                <div className="join anima-smart-layers-pointers ">
                     join
                 </div>
-                <div class="grouped">
+                <div className="grouped">
                     Grouped
                 </div>
-                <div class="rectanglecopy101">
+                <div className="rectanglecopy101">
                 </div>
-                <div class="confirmpassword">
+                <div className="confirmpassword">
                     confirm password
                 </div>
             </div>

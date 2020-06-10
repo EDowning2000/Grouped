@@ -61,7 +61,7 @@ function Login(){
                 </div>
                 <div class="rectanglecopy10">
                 </div>
-                <img alt="Image" anima-src={rectangle11} src={rectangle11}/>
+                <img alt="rectangle pic" anima-src={rectangle11} src={rectangle11}/>
 
                 <div class="username">
                     username

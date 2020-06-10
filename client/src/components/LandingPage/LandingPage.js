@@ -1,17 +1,17 @@
 import React from "react";
 import "./style.css";
-import rectangle1 from "../../homePageImg/desktop-rectangle-1@2x.png";
-import rectangle2 from "../../homePageImg/desktop-rectangle-copy-2@2x.png";
-import rectangle3 from "../../homePageImg/desktop-rectangle-copy-3@2x.png";
-import rectangle4 from "../../homePageImg/desktop-rectangle-copy-4@2x.png";
-import rectangle5 from "../../homePageImg/desktop-rectangle-copy-5@2x.png";
-import rectangle6 from "../../homePageImg/desktop-rectangle-copy-6@2x.png";
-import rectangle7 from "../../homePageImg/desktop-rectangle-copy-7@2x.png";
-import rectangle8 from "../../homePageImg/desktop-rectangle-copy-8@2x.png";
-import rectangle9 from "../../homePageImg/desktop-rectangle-copy-9@2x.png";
-import rectangle13 from "../../homePageImg/desktop-rectangle-copy-13@2x.png";
-import rectangle14 from "../../homePageImg/desktop-rectangle-copy@2x.png";
-import rectangle15 from "../../homePageImg/desktop-rectangle@2x.png";
+import rectangle1 from "../../LandingPageImg/desktop-rectangle-1@2x.png";
+import rectangle2 from "../../LandingPageImg/desktop-rectangle-copy-2@2x.png";
+import rectangle3 from "../../LandingPageImg/desktop-rectangle-copy-3@2x.png";
+import rectangle4 from "../../LandingPageImg/desktop-rectangle-copy-4@2x.png";
+import rectangle5 from "../../LandingPageImg/desktop-rectangle-copy-5@2x.png";
+import rectangle6 from "../../LandingPageImg/desktop-rectangle-copy-6@2x.png";
+import rectangle7 from "../../LandingPageImg/desktop-rectangle-copy-7@2x.png";
+import rectangle8 from "../../LandingPageImg/desktop-rectangle-copy-8@2x.png";
+import rectangle9 from "../../LandingPageImg/desktop-rectangle-copy-9@2x.png";
+import rectangle13 from "../../LandingPageImg/desktop-rectangle-copy-13@2x.png";
+import rectangle14 from "../../LandingPageImg/desktop-rectangle-copy@2x.png";
+import rectangle15 from "../../LandingPageImg/desktop-rectangle@2x.png";
 
 
 const firstDivStyle ={

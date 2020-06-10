@@ -1,6 +1,16 @@
 import React from "react"
 import './style.css'
 
+import rectangle1 from "../../CreateEventImg/create-event-rectangle-1@2x.png"
+import rectangle2 from "../../CreateEventImg/create-event-rectangle-2@2x.png"
+import rectangle0 from "../../CreateEventImg/create-event-rectangle-copy-2@2x.png"
+import rectangle3 from "../../CreateEventImg/create-event-rectangle-copy-3@2x.png"
+import rectangle6 from "../../CreateEventImg/create-event-rectangle-copy-6.png"
+import rectangle7 from "../../CreateEventImg/create-event-rectangle-copy-7@2x.png"
+import rectangle8 from "../../CreateEventImg/create-event-rectangle-copy-8@2x.png"
+import rectangle9 from "../../CreateEventImg/create-event-rectangle-copy-9@2x.png"
+import rectangle13 from "../../CreateEventImg/create-event-rectangle-copy-13@2x.png"
+import rectangle14 from "../../CreateEventImg/create-event-rectangle-copy@2x.png"
 
 
 const firstDivStyle ={
@@ -19,59 +29,73 @@ function CreateEvent(){
   return(
     <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="createevent"/>
-        <div class="createevent anima-word-break ">
+        <div className="createevent anima-word-break ">
             <div style={startStyle}>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-3@2x.png" class="rectangle anima-animate-enter" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy@2x.png" class="rectanglecopy anima-animate-enter1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-2@2x.png" class="rectanglecopy2 anima-animate-enter2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-3@2x.png" class="rectanglecopy3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-3@2x.png" class="rectanglecopy4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-1@2x.png" class="rectangle1 anima-animate-enter3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-8@2x.png" class="rectanglecopy8 anima-animate-enter4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-9@2x.png" class="rectanglecopy9 anima-animate-enter5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-3@2x.png" class="rectanglecopy5 anima-animate-enter6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-6.png" class="rectanglecopy6 anima-animate-enter7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-13@2x.png" class="rectanglecopy13 anima-animate-enter8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <img alt="Image" anima-src="./img/create-event-rectangle-copy-7@2x.png" class="rectanglecopy7 anima-animate-enter9" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <div class="grouped">
+
+                <img alt="rectangle pic" anima-src={rectangle3} className="rectangle anima-animate-enter" src={rectangle3}/>
+
+                <img alt="rectangle pic" anima-src={rectangle14} className="rectanglecopy anima-animate-enter1" src={rectangle14}/>
+
+                <img alt="rectangle pic" anima-src={rectangle0} className="rectanglecopy2 anima-animate-enter2" src={rectangle0}/>
+
+                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy3" src={rectangle3}/>
+
+                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy4" src={rectangle3}/>
+
+                <img alt="rectangle pic" anima-src={rectangle1} className="rectangle1 anima-animate-enter3" src={rectangle1}/>
+
+                <img alt="rectangle pic" anima-src={rectangle8} className="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
+
+                <img alt="rectangle pic" anima-src={rectangle9} className="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
+
+                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy5 anima-animate-enter6" src={rectangle3}/>
+
+                <img alt="rectangle pic" anima-src={rectangle6} className="rectanglecopy6 anima-animate-enter7" src={rectangle6}/>
+
+                <img alt="rectangle pic" anima-src={rectangle13} className="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
+
+                <img alt="rectangle pic" anima-src={rectangle7} className="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
+
+                <div className="grouped">
                     Grouped
                 </div>
-                <div class="home anima-smart-layers-pointers ">
+                <div className="home anima-smart-layers-pointers ">
                     Home
                 </div>
-                <div class="profile anima-smart-layers-pointers ">
+                <div className="profile anima-smart-layers-pointers ">
                     Profile
                 </div>
-                <div class="about anima-smart-layers-pointers ">
+                <div className="about anima-smart-layers-pointers ">
                     About
                 </div>
-                <div class="eventname">
+                <div className="eventname">
                     Event Name:
                 </div>
-                <div class="eventhost">
+                <div className="eventhost">
                     Event Host:
                 </div>
-                <div class="maximumguests">
+                <div className="maximumguests">
                     Maximum Guests:
                 </div>
-                <div class="description">
+                <div className="description">
                     Description:
                 </div>
-                <div class="zipcode">
+                <div className="zipcode">
                     Zip Code:
                 </div>
-                <div class="mmddyyyy">
+                <div className="mmddyyyy">
                     MM/DD/YYYY:
                 </div>
-                <div class="time">
+                <div className="time">
                     Time:
                 </div>
-                <img alt="Image" anima-src="./img/create-event-rectangle-2@2x.png" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <div class="create">
+                <img alt="rectangle pic" anima-src={rectangle2} className="rectangle2" src={rectangle2}/>
+                <div className="create anima-smart-layers-pointers">
                     Create
                 </div>
             </div>
         </div>
       </div>
-  )
-}
+  );
+};
+export default CreateEvent;

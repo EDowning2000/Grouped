@@ -1,11 +1,10 @@
 import React from 'react';
-
-import LandingPage from './components/LandingPage/LandingPage'
+import CreateEvent from './components/CreateEvent/CreateEvent'
 
 
 function App() {
   return (
-   <LandingPage></LandingPage>
+   <CreateEvent></CreateEvent>
   );
 }
 

@@ -1030,27 +1030,27 @@ div {
 .home .profile:hover {
   transform           : translate(5px, 0);
 }
-.home .about {
+.home .about1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 67px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 884px;
+  left                : 880px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.4s ease-in-out;
   font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
   font-size           : 22.0px;
-  color               : rgba(254, 254, 254, 1.0);
+  color               : rgba(253, 254, 254, 1.0);
   text-align          : center;
   line-height         : 30.0px;
 }
-.home .about {
+.home .about1 {
   pointer-events      : auto;
 }
-.home .about:hover {
+.home .about1:hover {
   transform           : translate(5px, 0);
 }
 .home .createnewevent {

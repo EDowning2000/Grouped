@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/HomePageImg/home-rectangle-1@2x.png";
 import rectangle6 from "../../Images/HomePageImg/home-rectangle-copy-6.png";
@@ -89,17 +90,28 @@ function HomePage() {
             className="rectanglecopy7 anima-animate-enter9"
             src={rectangle7}
           />
-
+        <Link to="/">
           <div className="grouped">Grouped</div>
-          <div className="home1 anima-smart-layers-pointers ">Home</div>
-          <div className="profile anima-smart-layers-pointers ">Profile</div>
-          <div className="about anima-smart-layers-pointers ">About</div>
+        </Link>
+        <Link to="/home">
+          <span className="home1">Home</span>
+        </Link>
+        <Link to="/user">
+          <span className="profile">Profile</span>
+        </Link>
+        <Link to="/about">
+          <span className="about1">About</span>
+        </Link>
+        <Link to="/create">
           <div className="createnewevent anima-smart-layers-pointers ">
             Create New Event
           </div>
+        </Link>
+        <Link to="/search">
           <div className="searchevents anima-smart-layers-pointers ">
             Search Events
           </div>
+        </Link>
         </div>
       </div>
     </div>

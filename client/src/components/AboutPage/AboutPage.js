@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/AboutImg/about-rectangle-1@2x.png";
 import rectangle2 from "../../Images/AboutImg/about-rectangle-copy-2@2x.png";
@@ -114,14 +114,14 @@ function AboutPage() {
           />
 
           <div className="grouped">Grouped</div>
-          <Link to='/home'>
-          <div className="home1 anima-smart-layers-pointers ">Home</div>
+          <Link to="/home">
+            <div className="home1 anima-smart-layers-pointers ">Home</div>
           </Link>
-          <Link to='/user'>
-          <div className="profile anima-smart-layers-pointers ">Profile</div>
+          <Link to="/user">
+            <div className="profile anima-smart-layers-pointers ">Profile</div>
           </Link>
-          <Link to='/about'>
-          <div className="about1 anima-smart-layers-pointers ">About</div>
+          <Link to="/about">
+            <div className="about1 anima-smart-layers-pointers ">About</div>
           </Link>
           <div className="designers">Designers</div>
           <div className="emersondowning">Emerson Downing</div>

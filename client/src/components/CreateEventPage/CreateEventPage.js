@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/CreateEventImg/create-event-rectangle-1@2x.png";
 import rectangle2 from "../../Images/CreateEventImg/create-event-rectangle-2@2x.png";
@@ -113,14 +113,20 @@ function CreateEventPage() {
             className="rectanglecopy7 anima-animate-enter9"
             src={rectangle7}
           />
-          
+
           <div className="grouped">Grouped</div>
 
-        <Link to='/home'><div className="home1 anima-smart-layers-pointers ">Home</div></Link>
+          <Link to="/home">
+            <div className="home1 anima-smart-layers-pointers ">Home</div>
+          </Link>
 
-        <Link to='/user'><div className="profile anima-smart-layers-pointers ">Profile</div></Link>
+          <Link to="/user">
+            <div className="profile anima-smart-layers-pointers ">Profile</div>
+          </Link>
 
-        <Link to='/about'><div className="about1 anima-smart-layers-pointers ">About</div></Link>
+          <Link to="/about">
+            <div className="about1 anima-smart-layers-pointers ">About</div>
+          </Link>
 
           <div className="eventname">Event Name:</div>
           <div className="eventhost">Event Host:</div>

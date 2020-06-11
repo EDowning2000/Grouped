@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/SearchEventImg/search-event-rectangle-1@2x.png";
 import rectangle2 from "../../Images/SearchEventImg/search-event-rectangle-2@2x.png";
@@ -115,10 +115,10 @@ function SearchEventPage() {
           />
 
           <div className="grouped">Grouped</div>
-          <Link to='/home'>
+          <Link to="/home">
             <div className="home1 anima-smart-layers-pointers ">Home</div>
           </Link>
-          <Link to='/user'>
+          <Link to="/user">
             <div className="profile anima-smart-layers-pointers ">Profile</div>
           </Link>
           <div className="enterzip">Enter Zip</div>
@@ -130,7 +130,7 @@ function SearchEventPage() {
           />
 
           <div className="search anima-smart-layers-pointers ">Search</div>
-          <Link to='/about'>
+          <Link to="/about">
             <div className="about1 anima-smart-layers-pointers ">About</div>
           </Link>
           <div className="rectangle3"></div>

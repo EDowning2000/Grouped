@@ -90,28 +90,28 @@ function HomePage() {
             className="rectanglecopy7 anima-animate-enter9"
             src={rectangle7}
           />
-        <Link to="/">
-          <div className="grouped">Grouped</div>
-        </Link>
-        <Link to="/home">
-          <span className="home1">Home</span>
-        </Link>
-        <Link to="/user">
-          <span className="profile">Profile</span>
-        </Link>
-        <Link to="/about">
-          <span className="about1">About</span>
-        </Link>
-        <Link to="/create">
-          <div className="createnewevent anima-smart-layers-pointers ">
-            Create New Event
-          </div>
-        </Link>
-        <Link to="/search">
-          <div className="searchevents anima-smart-layers-pointers ">
-            Search Events
-          </div>
-        </Link>
+          <Link to="/">
+            <div className="grouped">Grouped</div>
+          </Link>
+          <Link to="/home">
+            <span className="home1">Home</span>
+          </Link>
+          <Link to="/user">
+            <span className="profile">Profile</span>
+          </Link>
+          <Link to="/about">
+            <span className="about1">About</span>
+          </Link>
+          <Link to="/create">
+            <div className="createnewevent anima-smart-layers-pointers ">
+              Create New Event
+            </div>
+          </Link>
+          <Link to="/search">
+            <div className="searchevents anima-smart-layers-pointers ">
+              Search Events
+            </div>
+          </Link>
         </div>
       </div>
     </div>

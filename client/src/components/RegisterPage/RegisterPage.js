@@ -23,7 +23,7 @@ const firstDivStyle ={
        margin:"auto"
   };
 
-  function Register(){
+  function RegisterPage(){
     return (
 <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="register"/>
@@ -85,4 +85,4 @@ const firstDivStyle ={
       </div>
     )
   }
-  export default Register;
+  export default RegisterPage;

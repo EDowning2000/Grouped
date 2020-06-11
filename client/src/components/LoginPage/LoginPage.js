@@ -22,7 +22,7 @@ const firstDivStyle ={
        margin:"auto"
   };
 
-function Login(){
+function LoginPage(){
   return (
     <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="login"/>
@@ -78,4 +78,4 @@ function Login(){
       </div>
   );
 };
-export default Login;
+export default LoginPage;

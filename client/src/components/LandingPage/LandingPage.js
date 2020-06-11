@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import RegisterPage from "../RegisterPage/RegisterPage";
+import LoginPage from "../LoginPage/LoginPage";
 
 import rectangle1 from "../../Images/LandingPageImg/landing-page-rectangle-1@2x.png";
 import rectangle2 from "../../Images/LandingPageImg/landing-page-rectangle-copy-2@2x.png";
@@ -10,67 +13,120 @@ import rectangle9 from "../../Images/LandingPageImg/landing-page-rectangle-copy-
 import rectangle13 from "../../Images/LandingPageImg/landing-page-rectangle-copy-13@2x.png";
 import rectangle14 from "../../Images/LandingPageImg/landing-page-rectangle-copy@2x.png";
 
-
-
-const firstDivStyle ={
-margin:"0",
-background: "rgba(22,24,56,1.0)"
-
+const firstDivStyle = {
+  margin: "0",
+  background: "rgba(22,24,56,1.0)",
 };
-const startStyle ={
+const startStyle = {
   width: "1024px",
-   height: "100%",
-    position:"relative",
-     margin:"auto"
+  height: "100%",
+  position: "relative",
+  margin: "auto",
 };
 
-
-function LandingPage(){
+function LandingPage() {
   return (
     <div style={firstDivStyle}>
-        <input id="anPageName" name="page" type="hidden" value="landingpage"/>
-        <div className="landingpage anima-word-break ">
-            <div style={startStyle}>
-                <div className="grouped">
-                    Grouped
-                </div>
-                <div className="asafeandeasyplac">
-                    A Safe and Easy Place to Find and Create Events Near You
-                </div>
-                <div className="register anima-smart-layers-pointers ">
-                    <span className="span1">Register</span><span className="span2"><br /></span>
-                </div>
-                <div className="login anima-smart-layers-pointers ">
-                    Login
-                </div>
+      <input id="anPageName" name="page" type="hidden" value="landingpage" />
+      <div className="landingpage anima-word-break ">
+        <div style={startStyle}>
+          <div className="grouped">Grouped</div>
+          <div className="asafeandeasyplac">
+            A Safe and Easy Place to Find and Create Events Near You
+          </div>
 
-                <img alt="rectangle pic" anima-src={rectangle3} className="rectangle anima-animate-enter" src={rectangle3}/>
+          <div className="register anima-smart-layers-pointers ">
+            <div className="span1">Register</div>
+          </div>
 
-                <img alt="rectangle pic" anima-src={rectangle14} className="rectanglecopy anima-animate-enter1" src={rectangle14}/>
+          <div className="login anima-smart-layers-pointers ">Login</div>
 
-                <img alt="rectangle pic" anima-src={rectangle2} className="rectanglecopy2 anima-animate-enter2" src={rectangle2}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle3}
+            className="rectangle anima-animate-enter"
+            src={rectangle3}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy3" src={rectangle3}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle14}
+            className="rectanglecopy anima-animate-enter1"
+            src={rectangle14}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy4" src={rectangle3}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle2}
+            className="rectanglecopy2 anima-animate-enter2"
+            src={rectangle2}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle1} className="rectangle1 anima-animate-enter3" src= {rectangle1}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle3}
+            className="rectanglecopy3"
+            src={rectangle3}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle8} className="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle3}
+            className="rectanglecopy4"
+            src={rectangle3}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle9} className="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle1}
+            className="rectangle1 anima-animate-enter3"
+            src={rectangle1}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy5 anima-animate-enter6" src={rectangle3}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle8}
+            className="rectanglecopy8 anima-animate-enter4"
+            src={rectangle8}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle3} className="rectanglecopy6 anima-animate-enter7" src={rectangle3}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle9}
+            className="rectanglecopy9 anima-animate-enter5"
+            src={rectangle9}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle13} className="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle3}
+            className="rectanglecopy5 anima-animate-enter6"
+            src={rectangle3}
+          />
 
-                <img alt="rectangle pic" anima-src={rectangle7} className="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle3}
+            className="rectanglecopy6 anima-animate-enter7"
+            src={rectangle3}
+          />
 
-            </div>
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle13}
+            className="rectanglecopy13 anima-animate-enter8"
+            src={rectangle13}
+          />
+
+          <img
+            alt="rectangle pic"
+            anima-src={rectangle7}
+            className="rectanglecopy7 anima-animate-enter9"
+            src={rectangle7}
+          />
         </div>
+      </div>
     </div>
   );
-};
+}
 export default LandingPage;

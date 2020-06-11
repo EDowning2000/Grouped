@@ -1,10 +1,9 @@
 import React from 'react';
-import SearchEventPage from './components/SearchEventPage/SearchEventPage'
-
+import AboutPage from './components/AboutPage/AboutPage'
 
 function App() {
   return (
-   <SearchEventPage></SearchEventPage>
+   <AboutPage></AboutPage>
   );
 }
 

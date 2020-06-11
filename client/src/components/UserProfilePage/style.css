@@ -968,14 +968,14 @@ div {
   opacity             : 0;
   transform           : translate(-25px, 0);
 }
-.userprofile .about {
+.userprofile .about1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 67px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 884px;
+  left                : 890px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.4s ease-in-out;
@@ -985,10 +985,10 @@ div {
   text-align          : center;
   line-height         : 30.0px;
 }
-.userprofile .about {
+.userprofile .about1 {
   pointer-events      : auto;
 }
-.userprofile .about:hover {
+.userprofile .about1:hover {
   transform           : translate(5px, 0);
 }
 .userprofile .grouped {
@@ -1080,14 +1080,14 @@ div {
   text-align          : center;
   line-height         : 30.0px;
 }
-.userprofile .home {
+.userprofile .home1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 67px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 799px;
+  left                : 805px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.4s ease-in-out;
@@ -1097,10 +1097,10 @@ div {
   text-align          : center;
   line-height         : 30.0px;
 }
-.userprofile .home {
+.userprofile .home1 {
   pointer-events      : auto;
 }
-.userprofile .home:hover {
+.userprofile .home1:hover {
   transform           : translate(5px, 0);
 }
 .userprofile .profile {

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 import rectangle0 from "../../Images/UserProfileImg/user-profile--profile-photo@2x.png";
 import rectangle1 from "../../Images/UserProfileImg/user-profile--rectangle-1@2x.png";
@@ -112,8 +113,10 @@ function UserProfilePage() {
             className="rectanglecopy7 anima-animate-enter9"
             src={rectangle7}
           />
+        <Link to='/about'>
+          <div className="about1 anima-smart-layers-pointers ">About</div>
+        </Link>
 
-          <div className="about anima-smart-layers-pointers ">About</div>
           <div className="grouped">Grouped</div>
           <img
             alt="profile pic"
@@ -126,8 +129,12 @@ function UserProfilePage() {
           <div className="rectanglecopy10"></div>
           <div className="name">Name:</div>
           <div className="zipcode">zip code:</div>
-          <div className="home anima-smart-layers-pointers ">Home</div>
+        <Link to='/home'>
+          <div className="home1 anima-smart-layers-pointers ">Home</div>
+        </Link>
+        <Link to='/user'>
           <div className="profile anima-smart-layers-pointers ">Profile</div>
+        </Link>
         </div>
       </div>
     </div>

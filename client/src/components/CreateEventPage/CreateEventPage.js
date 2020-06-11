@@ -25,7 +25,7 @@ const firstDivStyle ={
   };
 
 
-function CreateEvent(){
+function CreateEventPage(){
   return(
     <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="createevent"/>
@@ -98,4 +98,4 @@ function CreateEvent(){
       </div>
   );
 };
-export default CreateEvent;
+export default CreateEventPage;

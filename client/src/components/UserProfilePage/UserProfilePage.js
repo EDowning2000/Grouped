@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import rectangle0 from '../../UserProfileImg/user-profile--photo@2x.png';
+import rectangle0 from '../../UserProfileImg/user-profile--profile-photo@2x.png';
 import rectangle1 from '../../UserProfileImg/user-profile--rectangle-1@2x.png';
 import rectangle2 from '../../UserProfileImg/user-profile--rectangle-copy-2@2x.png';
 import rectangle4 from '../../UserProfileImg/user-profile--rectangle-copy-4@2x.png';
@@ -30,29 +30,29 @@ function UserProfilePage(){
         <div className="userprofile anima-word-break ">
             <div style={startStyle}>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-4@2x.png" className="rectangle anima-animate-enter" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectangle anima-animate-enter" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy@2x.png" className="rectanglecopy anima-animate-enter1" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle0} className="rectanglecopy anima-animate-enter1" src={rectangle0}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-2@2x.png" className="rectanglecopy2 anima-animate-enter2" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle2} className="rectanglecopy2 anima-animate-enter2" src={rectangle2}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-4@2x.png" className="rectanglecopy3" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectanglecopy3" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-4@2x.png" className="rectanglecopy4" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectanglecopy4" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-1@2x.png" className="rectangle1 anima-animate-enter3" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle1} className="rectangle1 anima-animate-enter3" src={rectangle1}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-8@2x.png" className="rectanglecopy8 anima-animate-enter4" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle8} className="rectanglecopy8 anima-animate-enter4" src={rectangle8}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-9@2x.png" className="rectanglecopy9 anima-animate-enter5" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle9} className="rectanglecopy9 anima-animate-enter5" src={rectangle9}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-4@2x.png" className="rectanglecopy5 anima-animate-enter6" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle4} className="rectanglecopy5 anima-animate-enter6" src={rectangle4}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-6.png" className="rectanglecopy6 anima-animate-enter7" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle6} className="rectanglecopy6 anima-animate-enter7" src={rectangle6}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-13@2x.png" className="rectanglecopy13 anima-animate-enter8" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle13} className="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
 
-                <img alt="rectangle pic" anima-src="./img/user-profile--rectangle-copy-7@2x.png" className="rectanglecopy7 anima-animate-enter9" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="rectangle pic" anima-src={rectangle7} className="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
 
                 <div className="about anima-smart-layers-pointers ">
                     About
@@ -60,7 +60,7 @@ function UserProfilePage(){
                 <div className="grouped">
                     Grouped
                 </div>
-                <img alt="rectangle pic" anima-src="./img/user-profile--profile-photo@2x.png" className="profilephoto" src="data:rectangle pic/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img alt="profile pic" anima-src={rectangle0} className="profilephoto" src={rectangle0}/>
 
                 <div className="rectangle2">
                 </div>

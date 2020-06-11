@@ -1,11 +1,15 @@
 import React from  'react';
-//import API from '../utils/Api'
+import API from '../utils/Api'
 export default class MyForm extends React.Component {
     state = {
-        host: 'Name',
-        title: 'titleHERE',
-        address: '',
-        zip: '',
+        host: [],
+        title: [],
+        address: [],
+        zip: [],
+    }
+    handleSubmit = (e) => {
+        e.preventDefault();
+        API.saveEvent();
     }
 
     handleChange = event => {
@@ -24,29 +28,29 @@ export default class MyForm extends React.Component {
     render() {
         
         return (
-            <div class="wrapper">
+            <div className="wrapper">
                   <form>
-                    <div class="form-group">
-                    <label for="eventHost">What is the name of the event host?</label>
-                         <input onChange={this.handleChange} type="text" class="form-control" id="eHost" value={this.state.host}></input>
+                    <div className="form-group">
+                    <label htmlFor="eventHost">What is the name of the event host?</label>
+                         <input onChange={this.handleChange} type="text" className="form-control" id="eHost" value={this.state.host}></input>
                     </div>
-                    <div class="form-group">
-                        <label for="eventTitle">What is the name of the event?</label>
-                         <input onChange={this.handleTitle} type="text" class="form-control" id="eTitle" value={this.state.title}></input>
+                    <div className="form-group">
+                        <label htmlFor="eventTitle">What is the name of the event?</label>
+                         <input onChange={this.handleTitle} type="text" className="form-control" id="eTitle" value={this.state.title}></input>
                     </div>
-                    <div class="form-group">
-                        <label for="eventAddress">What is address of the event?</label>
-                         <input onChange={this.handleAddress} type="text" class="form-control" id="eAddress" value={this.state.address}></input>
+                    <div className="form-group">
+                        <label htmlFor="eventAddress">What is address of the event?</label>
+                         <input onChange={this.handleAddress} type="text" className="form-control" id="eAddress" value={this.state.address}></input>
                     </div>
-                    <div class="form-group">
-                       <label for="eventZip">What is the zipcode of the event?</label>
-                         <input onChange={this.handleZip} type="number" class="form-control" id="eZip" value={this.state.zip}></input> 
+                    <div className="form-group">
+                       <label htmlFor="eventZip">What is the zipcode of the event?</label>
+                         <input onChange={this.handleZip} type="number" className="form-control" id="eZip" value={this.state.zip}></input> 
                     </div>
-                    <div class="form-group">
-                       <label for="eventDate">What date will the event be held?</label>
-                         <input type='text' class="form-control" id='datetimepicker4' /> 
+                    <div className="form-group">
+                       <label htmlFor="eventDate">What date will the event be held?</label>
+                         <input type='text' className="form-control" id='datetimepicker4' /> 
                     </div>
-                    {/* <button type="submit" onClick = {API.saveEvent} class="btn btn-primary">Submit</button> */}
+                    <button type="submit" onClick = {this.handleSubmit} className="btn btn-primary">Submit</button>
                      </form> 
                      </div>
         )

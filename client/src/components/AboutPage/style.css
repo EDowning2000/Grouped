@@ -984,14 +984,14 @@ div {
   text-align          : center;
   line-height         : 40.0px;
 }
-.about .home {
+.about .home1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 67px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 799px;
+  left                : 802px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   transition          : all 0.4s ease-in-out;
@@ -1001,10 +1001,10 @@ div {
   text-align          : center;
   line-height         : 30.0px;
 }
-.about .home {
+.about .home1 {
   pointer-events      : auto;
 }
-.about .home:hover {
+.about .home1:hover {
   transform           : translate(5px, 0);
 }
 .about .profile {

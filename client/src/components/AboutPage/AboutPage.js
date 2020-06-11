@@ -138,9 +138,9 @@ function AboutPage() {
             <br />
             Node
           </div>
-          <div className="sourcecode anima-smart-layers-pointers ">
+          <a className="sourcecode anima-smart-layers-pointers" href="https://github.com/EDowning2000/Project3" target="blank">
             Source Code
-          </div>
+          </a>
         </div>
       </div>
     </div>

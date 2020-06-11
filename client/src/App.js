@@ -10,7 +10,6 @@ import CreateEventPage from "./components/CreateEventPage/CreateEventPage";
 import LandingPage from "./components/LandingPage/LandingPage";
 import SearchEventPage from "./components/SearchEventPage/SearchEventPage";
 import UserProfilePage from "./components/UserProfilePage/UserProfilePage";
-import Wrapper from "./components/Wrapper/Wrapper";
 
 function App() {
   return (

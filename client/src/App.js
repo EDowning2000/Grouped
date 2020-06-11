@@ -16,14 +16,14 @@ function App() {
   return (
         <Router>
           <Switch>
-            <Route path="/" component={LandingPage} />
-            <Route path="/login" component={LoginPage} />
-            <Route path="/register" component={RegisterPage} />
-            <Route path="/home" component={HomePage} />
-            <Route path="/user" component={UserProfilePage} />
-            <Route path="/about" component={AboutPage} />
-            <Route path="/create" component={CreateEventPage} />
-            <Route path="/search" component={SearchEventPage} />
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/login" exact component={LoginPage} />
+            <Route path="/register" exact component={RegisterPage} />
+            <Route path="/home" exact component={HomePage} />
+            <Route path="/user" exact component={UserProfilePage} />
+            <Route path="/about" exact component={AboutPage} />
+            <Route path="/create" exact component={CreateEventPage} />
+            <Route path="/search" exact component={SearchEventPage} />
           </Switch>
         </Router>
       

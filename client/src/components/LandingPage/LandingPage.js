@@ -25,7 +25,7 @@ const startStyle = {
 
 function LandingPage() {
   return (
-  <Link to="/">
+  
     <div style={firstDivStyle}>
       <input id="anPageName" name="page" type="hidden" value="landingpage" />
       <div className="landingpage anima-word-break ">
@@ -44,7 +44,7 @@ function LandingPage() {
           <div className="login anima-smart-layers-pointers ">
             Login
           </div>
-          </Link>
+        </Link>
 
           <img
             alt="rectangle pic"
@@ -132,7 +132,7 @@ function LandingPage() {
         </div>
       </div>
     </div>
-    </Link>
+   
   );
 }
 export default LandingPage;

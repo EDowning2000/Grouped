@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import RegisterPage from "../RegisterPage/RegisterPage";
-import LoginPage from "../LoginPage/LoginPage";
+import { Link } from "react-router-dom";
+
 
 import rectangle1 from "../../Images/LandingPageImg/landing-page-rectangle-1@2x.png";
 import rectangle2 from "../../Images/LandingPageImg/landing-page-rectangle-copy-2@2x.png";
@@ -26,6 +25,7 @@ const startStyle = {
 
 function LandingPage() {
   return (
+  <Link to="/">
     <div style={firstDivStyle}>
       <input id="anPageName" name="page" type="hidden" value="landingpage" />
       <div className="landingpage anima-word-break ">
@@ -35,11 +35,16 @@ function LandingPage() {
             A Safe and Easy Place to Find and Create Events Near You
           </div>
 
+        <Link to='/register'>
           <div className="register anima-smart-layers-pointers ">
-            <div className="span1">Register</div>
+            Register
           </div>
-
-          <div className="login anima-smart-layers-pointers ">Login</div>
+        </Link>
+        <Link to="/login">
+          <div className="login anima-smart-layers-pointers ">
+            Login
+          </div>
+          </Link>
 
           <img
             alt="rectangle pic"
@@ -127,6 +132,7 @@ function LandingPage() {
         </div>
       </div>
     </div>
+    </Link>
   );
 }
 export default LandingPage;

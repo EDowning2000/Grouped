@@ -14,23 +14,20 @@ import Wrapper from "./components/Wrapper/Wrapper";
 
 function App() {
   return (
-    <div className="App">
-      <Wrapper>
         <Router>
-        <Switch>
-          <Route path="/" component={LandingPage} />
-          <Route path="/login" component={LoginPage} />
-          <Route path="/register" component={RegisterPage} />
-          <Route path="/home" component={HomePage} />
-          <Route path="/user" component={UserProfilePage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/create" component={CreateEventPage} />
-          <Route path="/search" component={SearchEventPage} />
-        </Switch>
+          <Switch>
+            <Route path="/" component={LandingPage} />
+            <Route path="/login" component={LoginPage} />
+            <Route path="/register" component={RegisterPage} />
+            <Route path="/home" component={HomePage} />
+            <Route path="/user" component={UserProfilePage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/create" component={CreateEventPage} />
+            <Route path="/search" component={SearchEventPage} />
+          </Switch>
         </Router>
-      </Wrapper>
-    </div>
+      
   );
-}
+};
 
 export default App;

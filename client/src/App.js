@@ -1,10 +1,10 @@
 import React from 'react';
-import CreateEvent from './components/CreateEvent/CreateEvent'
+import SearchEventPage from './components/SearchEventPage/SearchEventPage'
 
 
 function App() {
   return (
-   <CreateEvent></CreateEvent>
+   <SearchEventPage></SearchEventPage>
   );
 }
 

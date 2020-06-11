@@ -1,9 +1,11 @@
 import React from 'react';
-import AboutPage from './components/AboutPage/AboutPage'
+import LoginPage from './components/LoginPage/LoginPage'
+import RegisterPage from './components/RegisterPage/RegisterPage'
 
 function App() {
   return (
-   <AboutPage></AboutPage>
+   <LoginPage></LoginPage>
+  // <RegisterPage></RegisterPage>
   );
 }
 

@@ -20,7 +20,7 @@ const firstDivStyle ={
      height: "100%",
       position:"relative",
        margin:"auto"
-  };
+};
 
 function LoginPage(){
   return (
@@ -51,6 +51,7 @@ function LoginPage(){
                 <img alt="rectangle pic" anima-src={rectangle13} className="rectanglecopy13 anima-animate-enter8" src={rectangle13}/>
 
                 <img alt="rectangle pic" anima-src={rectangle7} className="rectanglecopy7 anima-animate-enter9" src={rectangle7}/>
+                <img alt="rectangle Pic" anima-src={rectangle11} className="rectanglecopy11" src={rectangle11}/>
 
                 <div className="welcomeback">
                     Welcome Back
@@ -59,15 +60,13 @@ function LoginPage(){
                 </div>
                 <div className="rectanglecopy10">
                 </div>
-                
-
                 <div className="username">
                     username
                 </div>
                 <div className="password">
                     password
                 </div>
-                <div className="login1 anima-smart-layers-pointers ">
+                <div class="login1 anima-smart-layers-pointers ">
                     login
                 </div>
                 <div className="grouped">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/loginImg/login-rectangle-1@2x.png";
 import rectangle2 from "../../Images/loginImg/login-rectangle-copy-2@2x.png";
@@ -125,7 +126,9 @@ function LoginPage() {
           <div className="username">username</div>
           <div className="password">password</div>
           <div class="login1 anima-smart-layers-pointers ">login</div>
+        <Link to="/">
           <div className="grouped">Grouped</div>
+        </Link>
         </div>
       </div>
     </div>

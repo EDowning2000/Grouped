@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/registerImg/register-rectangle-1@2x.png";
 import rectangle2 from "../../Images/registerImg/register-rectangle-copy-2@2x.png";
@@ -126,7 +127,9 @@ function RegisterPage() {
           <div className="username">username</div>
           <div className="password">password</div>
           <div className="join anima-smart-layers-pointers ">join</div>
+        <Link to="/">
           <div className="grouped">Grouped</div>
+        </Link>
           <div className="rectanglecopy101"></div>
           <div className="confirmpassword">confirm password</div>
         </div>

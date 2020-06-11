@@ -1,16 +1,16 @@
 import React from 'react'
 import './style.css'
 
-import rectangle1 from '../../SearchEventImg/search-event-rectangle-1@2x.png';
-import rectangle2 from '../../SearchEventImg/search-event-rectangle-2@2x.png';
-import rectangle0 from '../../SearchEventImg/search-event-rectangle-copy-2@2x.png';
-import rectangle5 from '../../SearchEventImg/search-event-rectangle-copy-5@2x.png';
-import rectangle6 from '../../SearchEventImg/search-event-rectangle-copy-6.png';
-import rectangle7 from '../../SearchEventImg/search-event-rectangle-copy-7@2x.png';
-import rectangle8 from '../../SearchEventImg/search-event-rectangle-copy-8@2x.png';
-import rectangle9 from '../../SearchEventImg/search-event-rectangle-copy-9@2x.png';
-import rectangle13 from '../../SearchEventImg/search-event-rectangle-copy-13@2x.png';
-import rectangle14 from '../../SearchEventImg/search-event-rectangle-copy@2x.png';
+import rectangle1 from '../../Images/SearchEventImg/search-event-rectangle-1@2x.png';
+import rectangle2 from '../../Images/SearchEventImg/search-event-rectangle-2@2x.png';
+import rectangle0 from '../../Images/SearchEventImg/search-event-rectangle-copy-2@2x.png';
+import rectangle5 from '../../Images/SearchEventImg/search-event-rectangle-copy-5@2x.png';
+import rectangle6 from '../../Images/SearchEventImg/search-event-rectangle-copy-6.png';
+import rectangle7 from '../../Images/SearchEventImg/search-event-rectangle-copy-7@2x.png';
+import rectangle8 from '../../Images/SearchEventImg/search-event-rectangle-copy-8@2x.png';
+import rectangle9 from '../../Images/SearchEventImg/search-event-rectangle-copy-9@2x.png';
+import rectangle13 from '../../Images/SearchEventImg/search-event-rectangle-copy-13@2x.png';
+import rectangle14 from '../../Images/SearchEventImg/search-event-rectangle-copy@2x.png';
 
 const firstDivStyle ={
   margin:"0",

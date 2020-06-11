@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css'
 
-import rectangle1 from '../../AboutImg/about-rectangle-1@2x.png';
-import rectangle2 from '../../AboutImg/about-rectangle-copy-2@2x.png';
-import rectangle4 from '../../AboutImg/about-rectangle-copy-4@2x.png';
-import rectangle6 from '../../AboutImg/about-rectangle-copy-6.png';
-import rectangle7 from '../../AboutImg/about-rectangle-copy-7@2x.png';
-import rectangle8 from '../../AboutImg/about-rectangle-copy-8@2x.png';
-import rectangle9 from '../../AboutImg/about-rectangle-copy-9@2x.png';
-import rectangle13 from '../../AboutImg/about-rectangle-copy-13@2x.png';
-import rectangle14 from '../../AboutImg/about-rectangle-copy@2x.png';
+import rectangle1 from '../../Images/AboutImg/about-rectangle-1@2x.png';
+import rectangle2 from '../../Images/AboutImg/about-rectangle-copy-2@2x.png';
+import rectangle4 from '../../Images/AboutImg/about-rectangle-copy-4@2x.png';
+import rectangle6 from '../../Images/AboutImg/about-rectangle-copy-6.png';
+import rectangle7 from '../../Images/AboutImg/about-rectangle-copy-7@2x.png';
+import rectangle8 from '../../Images/AboutImg/about-rectangle-copy-8@2x.png';
+import rectangle9 from '../../Images/AboutImg/about-rectangle-copy-9@2x.png';
+import rectangle13 from '../../Images/AboutImg/about-rectangle-copy-13@2x.png';
+import rectangle14 from '../../Images/AboutImg/about-rectangle-copy@2x.png';
 
 
 const firstDivStyle ={

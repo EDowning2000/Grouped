@@ -1,16 +1,16 @@
 import React from 'react';
 import './style.css';
 
-import rectangle1 from "../../registerImg/register-rectangle-1@2x.png";
-import rectangle2 from "../../registerImg/register-rectangle-copy-2@2x.png";
-import rectangle4 from "../../registerImg/register-rectangle-copy-4@2x.png";
-import rectangle6 from "../../registerImg/register-rectangle-copy-6.png";
-import rectangle7 from "../../registerImg/register-rectangle-copy-7@2x.png";
-import rectangle8 from "../../registerImg/register-rectangle-copy-8@2x.png";
-import rectangle9 from "../../registerImg/register-rectangle-copy-9@2x.png";
-import rectangle11 from "../../registerImg/register-rectangle-copy-11.png";
-import rectangle13 from "../../registerImg/register-rectangle-copy-13@2x.png";
-import rectangle14 from "../../registerImg/register-rectangle-copy@2x.png";
+import rectangle1 from "../../Images/registerImg/register-rectangle-1@2x.png";
+import rectangle2 from "../../Images/registerImg/register-rectangle-copy-2@2x.png";
+import rectangle4 from "../../Images/registerImg/register-rectangle-copy-4@2x.png";
+import rectangle6 from "../../Images/registerImg/register-rectangle-copy-6.png";
+import rectangle7 from "../../Images/registerImg/register-rectangle-copy-7@2x.png";
+import rectangle8 from "../../Images/registerImg/register-rectangle-copy-8@2x.png";
+import rectangle9 from "../../Images/registerImg/register-rectangle-copy-9@2x.png";
+import rectangle11 from "../../Images/registerImg/register-rectangle-copy-11.png";
+import rectangle13 from "../../Images/registerImg/register-rectangle-copy-13@2x.png";
+import rectangle14 from "../../Images/registerImg/register-rectangle-copy@2x.png";
 
 const firstDivStyle ={
   margin:"0",

@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
 
-import rectangle1 from "../../LandingPageImg/landing-page-rectangle-1@2x.png";
-import rectangle2 from "../../LandingPageImg/landing-page-rectangle-copy-2@2x.png";
-import rectangle3 from "../../LandingPageImg/landing-page-rectangle-copy-3@2x.png";
-import rectangle7 from "../../LandingPageImg/landing-page-rectangle-copy-7@2x.png";
-import rectangle8 from "../../LandingPageImg/landing-page-rectangle-copy-8@2x.png";
-import rectangle9 from "../../LandingPageImg/landing-page-rectangle-copy-9@2x.png";
-import rectangle13 from "../../LandingPageImg/landing-page-rectangle-copy-13@2x.png";
-import rectangle14 from "../../LandingPageImg/landing-page-rectangle-copy@2x.png";
+import rectangle1 from "../../Images/LandingPageImg/landing-page-rectangle-1@2x.png";
+import rectangle2 from "../../Images/LandingPageImg/landing-page-rectangle-copy-2@2x.png";
+import rectangle3 from "../../Images/LandingPageImg/landing-page-rectangle-copy-3@2x.png";
+import rectangle7 from "../../Images/LandingPageImg/landing-page-rectangle-copy-7@2x.png";
+import rectangle8 from "../../Images/LandingPageImg/landing-page-rectangle-copy-8@2x.png";
+import rectangle9 from "../../Images/LandingPageImg/landing-page-rectangle-copy-9@2x.png";
+import rectangle13 from "../../Images/LandingPageImg/landing-page-rectangle-copy-13@2x.png";
+import rectangle14 from "../../Images/LandingPageImg/landing-page-rectangle-copy@2x.png";
 
 
 

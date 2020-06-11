@@ -1,16 +1,16 @@
 import React from "react"
 import './style.css'
 
-import rectangle1 from "../../CreateEventImg/create-event-rectangle-1@2x.png"
-import rectangle2 from "../../CreateEventImg/create-event-rectangle-2@2x.png"
-import rectangle0 from "../../CreateEventImg/create-event-rectangle-copy-2@2x.png"
-import rectangle3 from "../../CreateEventImg/create-event-rectangle-copy-3@2x.png"
-import rectangle6 from "../../CreateEventImg/create-event-rectangle-copy-6.png"
-import rectangle7 from "../../CreateEventImg/create-event-rectangle-copy-7@2x.png"
-import rectangle8 from "../../CreateEventImg/create-event-rectangle-copy-8@2x.png"
-import rectangle9 from "../../CreateEventImg/create-event-rectangle-copy-9@2x.png"
-import rectangle13 from "../../CreateEventImg/create-event-rectangle-copy-13@2x.png"
-import rectangle14 from "../../CreateEventImg/create-event-rectangle-copy@2x.png"
+import rectangle1 from "../../Images/CreateEventImg/create-event-rectangle-1@2x.png"
+import rectangle2 from "../../Images/CreateEventImg/create-event-rectangle-2@2x.png"
+import rectangle0 from "../../Images/CreateEventImg/create-event-rectangle-copy-2@2x.png"
+import rectangle3 from "../../Images/CreateEventImg/create-event-rectangle-copy-3@2x.png"
+import rectangle6 from "../../Images/CreateEventImg/create-event-rectangle-copy-6.png"
+import rectangle7 from "../../Images/CreateEventImg/create-event-rectangle-copy-7@2x.png"
+import rectangle8 from "../../Images/CreateEventImg/create-event-rectangle-copy-8@2x.png"
+import rectangle9 from "../../Images/CreateEventImg/create-event-rectangle-copy-9@2x.png"
+import rectangle13 from "../../Images/CreateEventImg/create-event-rectangle-copy-13@2x.png"
+import rectangle14 from "../../Images/CreateEventImg/create-event-rectangle-copy@2x.png"
 
 
 const firstDivStyle ={

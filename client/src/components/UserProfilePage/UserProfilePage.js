@@ -1,16 +1,16 @@
 import React from 'react';
 import './style.css';
 
-import rectangle0 from '../../UserProfileImg/user-profile--profile-photo@2x.png';
-import rectangle1 from '../../UserProfileImg/user-profile--rectangle-1@2x.png';
-import rectangle2 from '../../UserProfileImg/user-profile--rectangle-copy-2@2x.png';
-import rectangle4 from '../../UserProfileImg/user-profile--rectangle-copy-4@2x.png';
-import rectangle6 from '../../UserProfileImg/user-profile--rectangle-copy-6.png';
-import rectangle7 from '../../UserProfileImg/user-profile--rectangle-copy-7@2x.png';
-import rectangle8 from '../../UserProfileImg/user-profile--rectangle-copy-8@2x.png';
-import rectangle9 from '../../UserProfileImg/user-profile--rectangle-copy-9@2x.png';
-import rectangle13 from '../../UserProfileImg/user-profile--rectangle-copy-13@2x.png';
-import rectangle14 from '../../UserProfileImg/user-profile--rectangle-copy@2x.png';
+import rectangle0 from '../../Images/UserProfileImg/user-profile--profile-photo@2x.png';
+import rectangle1 from '../../Images/UserProfileImg/user-profile--rectangle-1@2x.png';
+import rectangle2 from '../../Images/UserProfileImg/user-profile--rectangle-copy-2@2x.png';
+import rectangle4 from '../../Images/UserProfileImg/user-profile--rectangle-copy-4@2x.png';
+import rectangle6 from '../../Images/UserProfileImg/user-profile--rectangle-copy-6.png';
+import rectangle7 from '../../Images/UserProfileImg/user-profile--rectangle-copy-7@2x.png';
+import rectangle8 from '../../Images/UserProfileImg/user-profile--rectangle-copy-8@2x.png';
+import rectangle9 from '../../Images/UserProfileImg/user-profile--rectangle-copy-9@2x.png';
+import rectangle13 from '../../Images/UserProfileImg/user-profile--rectangle-copy-13@2x.png';
+import rectangle14 from '../../Images/UserProfileImg/user-profile--rectangle-copy@2x.png';
 
 const firstDivStyle ={
   margin:"0",

@@ -1,14 +1,14 @@
 import React from 'react';
 import './style.css';
 
-import rectangle1 from "../../HomePageImg/home-rectangle-1@2x.png";
-import rectangle6 from "../../HomePageImg/home-rectangle-copy-6.png";
-import rectangle7 from "../../HomePageImg/home-rectangle-copy-7@2x.png";
-import rectangle8 from "../../HomePageImg/home-rectangle-copy-8@2x.png";
-import rectangle9 from "../../HomePageImg/home-rectangle-copy-9@2x.png";
-import rectangle13 from "../../HomePageImg/home-rectangle-copy-13@2x.png";
-import rectangle14 from "../../HomePageImg/home-rectangle-copy@2x.png";
-import rectangle15 from "../../HomePageImg/home-rectangle@2x.png";
+import rectangle1 from "../../Images/HomePageImg/home-rectangle-1@2x.png";
+import rectangle6 from "../../Images/HomePageImg/home-rectangle-copy-6.png";
+import rectangle7 from "../../Images/HomePageImg/home-rectangle-copy-7@2x.png";
+import rectangle8 from "../../Images/HomePageImg/home-rectangle-copy-8@2x.png";
+import rectangle9 from "../../Images/HomePageImg/home-rectangle-copy-9@2x.png";
+import rectangle13 from "../../Images/HomePageImg/home-rectangle-copy-13@2x.png";
+import rectangle14 from "../../Images/HomePageImg/home-rectangle-copy@2x.png";
+import rectangle15 from "../../Images/HomePageImg/home-rectangle@2x.png";
 
 const firstDivStyle ={
   margin:"0",

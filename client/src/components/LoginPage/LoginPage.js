@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css';
 
-  import rectangle1 from "../../loginImg/login-rectangle-1@2x.png";
-  import rectangle2 from "../../loginImg/login-rectangle-copy-2@2x.png";
-  import rectangle5 from "../../loginImg/login-rectangle-copy-5@2x.png";
-  import rectangle7 from "../../loginImg/login-rectangle-copy-7@2x.png";
-  import rectangle8 from "../../loginImg/login-rectangle-copy-8@2x.png";
-  import rectangle9 from "../../loginImg/login-rectangle-copy-9@2x.png";
-  import rectangle11 from "../../loginImg/login-rectangle-copy-11.png";
-  import rectangle13 from "../../loginImg/login-rectangle-copy-13@2x.png";
-  import rectangle14 from "../../loginImg/login-rectangle-copy@2x.png";
+  import rectangle1 from "../../Images/loginImg/login-rectangle-1@2x.png";
+  import rectangle2 from "../../Images/loginImg/login-rectangle-copy-2@2x.png";
+  import rectangle5 from "../../Images/loginImg/login-rectangle-copy-5@2x.png";
+  import rectangle7 from "../../Images/loginImg/login-rectangle-copy-7@2x.png";
+  import rectangle8 from "../../Images/loginImg/login-rectangle-copy-8@2x.png";
+  import rectangle9 from "../../Images/loginImg/login-rectangle-copy-9@2x.png";
+  import rectangle11 from "../../Images/loginImg/login-rectangle-copy-11.png";
+  import rectangle13 from "../../Images/loginImg/login-rectangle-copy-13@2x.png";
+  import rectangle14 from "../../Images/loginImg/login-rectangle-copy@2x.png";
 
 const firstDivStyle ={
   margin:"0",

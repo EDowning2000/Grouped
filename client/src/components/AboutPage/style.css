@@ -892,6 +892,7 @@ div {
   left: 422px;
   transform: rotate(0deg);
   opacity: 1;
+  transition: all 0.4s ease-in-out;
   font-family: "Futura-MediumItalic", Helvetica, Arial, serif;
   font-size: 22px;
   color: rgba(254, 254, 254, 1);
@@ -910,6 +911,7 @@ div {
   opacity: 1;
   font-family: "Futura-MediumItalic", Helvetica, Arial, serif;
   font-size: 22px;
+  transition: all 0.4s ease-in-out;
   color: rgba(254, 254, 254, 1);
   text-align: center;
   line-height: 30px;
@@ -963,12 +965,20 @@ div {
   text-align: center;
   line-height: 30px;
 }
-.about .sourcecode {
+.about .sourcecode{
   pointer-events: auto;
 }
 .about .sourcecode:hover {
   transform: translate(5px, 0);
 }
+.about .emersondowning:hover{
+  transform: translate(5px,0);
+};
+.about .kylesmith:hover{
+  transform: translate(5px,0);
+};
+
+
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
   opacity: 0;

@@ -10,7 +10,7 @@ import rectangle8 from "../../Images/loginImg/login-rectangle-copy-8@2x.png";
 import rectangle9 from "../../Images/loginImg/login-rectangle-copy-9@2x.png";
 import rectangle11 from "../../Images/loginImg/login-rectangle-copy-11.png";
 import rectangle13 from "../../Images/loginImg/login-rectangle-copy-13@2x.png";
-import rectangle14 from "../../Images/loginImg/login-rectangle-copy@2x.png";
+
 
 const firstDivStyle = {
   margin: "0",

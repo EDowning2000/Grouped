@@ -23,6 +23,9 @@ const startStyle = {
   margin: "auto",
 };
 
+
+
+
 function AboutPage() {
   return (
     <div style={firstDivStyle}>
@@ -124,8 +127,8 @@ function AboutPage() {
             <div className="about1 anima-smart-layers-pointers ">About</div>
           </Link>
           <div className="designers">Designers</div>
-          <div className="emersondowning">Emerson Downing</div>
-          <div className="kylesmith">Kyle Smith</div>
+          <a className="emersondowning anima-smart-layers-pointers" href="https://github.com/EDowning2000" target="blank">Emerson Downing</a>
+        <a className="kylesmith anima-smart-layers-pointers" href="https://github.com/Kiyole" target='blank'>Kyle Smith</a>
           <div className="technologies">Technologies</div>
           <div className="htmlcssjavascript">
             Html
@@ -145,5 +148,5 @@ function AboutPage() {
       </div>
     </div>
   );
-}
+};
 export default AboutPage;

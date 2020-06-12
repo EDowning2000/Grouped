@@ -1,4 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
+import classnames from 'classnames';
+import { loginUser } from '../../../authActions/authActions';
 import "./style.css";
 import { Link } from "react-router-dom";
 
@@ -10,6 +12,40 @@ import rectangle8 from "../../Images/loginImg/login-rectangle-copy-8@2x.png";
 import rectangle9 from "../../Images/loginImg/login-rectangle-copy-9@2x.png";
 import rectangle11 from "../../Images/loginImg/login-rectangle-copy-11.png";
 import rectangle13 from "../../Images/loginImg/login-rectangle-copy-13@2x.png";
+
+class Login extends Component{
+  constructor(){
+    super();
+    this.state ={
+      email: '',
+      password: '',
+      errors: {}
+    };
+  };
+  componentDidMount(){
+    if(this.props.auth.isAuthenticated) this.props.history.push('/dashboard');
+  };
+  componentWillReceiveProps(nextProps){
+    if(nextProps.auth.isAuthenticated) this.props.history.push('/dashboard');
+    if(nextProps.errors){
+      this.state({
+        errors: nextProps.errors
+      });
+    };
+  };
+  onChange = e => {
+    this.setState({[e.target.name]: e.target.value});
+  };
+  onSubmit = e =>{
+    e.preventdefault();
+
+    const userData = {
+      email: this.state.email,
+      password: this.state.password
+    };
+    this.props.loginUser(userData);
+  };
+};
 
 
 const firstDivStyle = {

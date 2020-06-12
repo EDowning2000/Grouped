@@ -23,7 +23,10 @@ const startStyle = {
   margin: "auto",
 };
 
-
+const kyleStyle={
+  top:'274px',
+  left:'460px'
+};
 
 
 function AboutPage() {
@@ -128,7 +131,7 @@ function AboutPage() {
           </Link>
           <div className="designers">Designers</div>
           <a className="emersondowning anima-smart-layers-pointers" href="https://github.com/EDowning2000" target="blank">Emerson Downing</a>
-        <a className="kylesmith anima-smart-layers-pointers" href="https://github.com/Kiyole" target='blank'>Kyle Smith</a>
+        <a className="emersondowning anima-smart-layers-pointers" href="https://github.com/Kiyole" target='blank' style={kyleStyle}>Kyle Smith</a>
           <div className="technologies">Technologies</div>
           <div className="htmlcssjavascript">
             Html

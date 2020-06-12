@@ -123,9 +123,13 @@ function LoginPage() {
           <div className="welcomeback">Welcome Back</div>
           <div className="rectangle2"></div>
           <div className="rectanglecopy10"></div>
-          <div className="username">username</div>
-          <div className="password">password</div>
-          <div class="login1 anima-smart-layers-pointers ">login</div>
+
+        <form>
+            <input className="username"></input>
+            <input className="password"></input>
+            <input className="login1 anima-smart-layers-pointers "></input>
+        </form>
+
           <Link to="/">
             <div className="grouped">Grouped</div>
           </Link>

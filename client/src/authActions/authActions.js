@@ -6,7 +6,7 @@ import { GET_ERRORS, SET_CURRENT_USER, USER_LOADING } from "./types";
 export const setCurrentUser = (decoded) => {
   return {
     type: SET_CURRENT_USER,
-    payload: decoded
+    payload: decoded,
   };
 };
 
@@ -23,7 +23,7 @@ export const setErrors = (err) => {
   };
 };
 
-export const registerUser = (userData, history) => dispatch=> {
+export const registerUser = (userData, history) => (dispatch) => {
   axios
     .post("/api/users/register", userData)
     .then((res) => history.push("/login"))

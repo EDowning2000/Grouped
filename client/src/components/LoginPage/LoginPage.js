@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classnames from 'classnames';
-import {loginUser}  from '../../../authActions/authActions';
+import {loginUser}  from '../../authActions/authActions';
 import "./style.css";
 import { Link } from "react-router-dom";
 
@@ -173,5 +173,10 @@ function LoginPage() {
       </div>
     </div>
   );
-}
-export default LoginPage;
+};
+
+
+
+
+
+

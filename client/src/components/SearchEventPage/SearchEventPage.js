@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 import rectangle1 from "../../Images/SearchEventImg/search-event-rectangle-1@2x.png";
 import rectangle2 from "../../Images/SearchEventImg/search-event-rectangle-2@2x.png";

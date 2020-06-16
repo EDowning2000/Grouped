@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import classnames from "classnames";
 import { loginUser } from "../../authActions/authActions";
-import "./style.css";
+import "./style.scss";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";

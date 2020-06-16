@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classnames from "classnames";
-import "./style.css";
+import "./style.scss";
 import { Link, withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";

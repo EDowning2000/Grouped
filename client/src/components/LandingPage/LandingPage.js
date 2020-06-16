@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./style.scss";
 import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/LandingPageImg/landing-page-rectangle-1@2x.png";

@@ -27,11 +27,6 @@ const startStyle = {
   margin: "auto",
 };
 
-const usernameLabelStyle = {
-  top: "300px",
-  left: "387px",
-};
-
 class LoginPage extends Component {
   constructor() {
     super();
@@ -162,23 +157,6 @@ class LoginPage extends Component {
               className="rectanglecopy11"
               src={rectangle11}
             />
-            {/* <img
-              alt="rectangle Pic"
-              anima-src={rectangle11}
-              className="rectanglecopy12"
-              src={rectangle11}
-            /> */}
-
-            {/* <div className="welcomeback">Welcome Back</div>
-          <div className="rectangle2"></div>
-          <div className="rectanglecopy10"></div>
-
-          <form>
-            <input className="username"></input>
-            <input className="password"></input>
-            <input className="login1 anima-smart-layers-pointers "></input>
-          </form> */}
-
             <Link to="/">
               <div className="grouped">Grouped</div>
             </Link>

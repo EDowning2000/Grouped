@@ -171,7 +171,9 @@ class RegisterPage extends Component {
               src={rectangle11}
             />
 
-            <p className="grey-text text-darken-1">
+
+
+            <p className="grey-text text-darken-1 alreadyhasacct">
               Already have an account? <Link to="/login">Login</Link>
             </p>
 
@@ -219,12 +221,12 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
-              <div className="join anima-smart-layers-pointers " type="submit">
+              <button className="join anima-smart-layers-pointers " type="submit">
                 join
-              </div>
+              </button>
             </form>
 
-            <div className="join anima-smart-layers-pointers ">join</div>
+            
             <Link to="/">
               <div className="grouped">Grouped</div>
             </Link>

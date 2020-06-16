@@ -27,6 +27,11 @@ const startStyle = {
   margin: "auto",
 };
 
+const usernameLabelStyle = {
+  top: "300px",
+  left: "387px",
+};
+
 class LoginPage extends Component {
   constructor() {
     super();
@@ -61,105 +66,110 @@ class LoginPage extends Component {
     this.props.loginUser(userData);
   };
 
-render(){
-  const { errors } = this.state;
-  return (
-    
-    <div style={firstDivStyle}>
-      <input id="anPageName" name="page" type="hidden" value="login" />
-      <div className="login anima-word-break ">
-        <div style={startStyle}>
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle5}
-            className="rectangle anima-animate-enter"
-            src={rectangle5}
-          />
+  render() {
+    const { errors } = this.state;
+    return (
+      <div style={firstDivStyle}>
+        <input id="anPageName" name="page" type="hidden" value="login" />
+        <div className="login anima-word-break ">
+          <div style={startStyle}>
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle5}
+              className="rectangle anima-animate-enter"
+              src={rectangle5}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle2}
-            className="rectanglecopy anima-animate-enter1"
-            src={rectangle2}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle2}
+              className="rectanglecopy anima-animate-enter1"
+              src={rectangle2}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle2}
-            className="rectanglecopy2 anima-animate-enter2"
-            src={rectangle2}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle2}
+              className="rectanglecopy2 anima-animate-enter2"
+              src={rectangle2}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle5}
-            className="rectanglecopy3"
-            src={rectangle5}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle5}
+              className="rectanglecopy3"
+              src={rectangle5}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle5}
-            className="rectanglecopy4"
-            src={rectangle5}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle5}
+              className="rectanglecopy4"
+              src={rectangle5}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle1}
-            className="rectangle1 anima-animate-enter3"
-            src={rectangle1}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle1}
+              className="rectangle1 anima-animate-enter3"
+              src={rectangle1}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle8}
-            className="rectanglecopy8 anima-animate-enter4"
-            src={rectangle8}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle8}
+              className="rectanglecopy8 anima-animate-enter4"
+              src={rectangle8}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle9}
-            className="rectanglecopy9 anima-animate-enter5"
-            src={rectangle9}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle9}
+              className="rectanglecopy9 anima-animate-enter5"
+              src={rectangle9}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle5}
-            className="rectanglecopy5 anima-animate-enter6"
-            src={rectangle5}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle5}
+              className="rectanglecopy5 anima-animate-enter6"
+              src={rectangle5}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle5}
-            className="rectanglecopy6 anima-animate-enter7"
-            src={rectangle5}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle5}
+              className="rectanglecopy6 anima-animate-enter7"
+              src={rectangle5}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle13}
-            className="rectanglecopy13 anima-animate-enter8"
-            src={rectangle13}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle13}
+              className="rectanglecopy13 anima-animate-enter8"
+              src={rectangle13}
+            />
 
-          <img
-            alt="rectangle pic"
-            anima-src={rectangle7}
-            className="rectanglecopy7 anima-animate-enter9"
-            src={rectangle7}
-          />
-          <img
-            alt="rectangle Pic"
-            anima-src={rectangle11}
-            className="rectanglecopy11"
-            src={rectangle11}
-          />
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle7}
+              className="rectanglecopy7 anima-animate-enter9"
+              src={rectangle7}
+            />
+            <img
+              alt="rectangle Pic"
+              anima-src={rectangle11}
+              className="rectanglecopy11"
+              src={rectangle11}
+            />
+            {/* <img
+              alt="rectangle Pic"
+              anima-src={rectangle11}
+              className="rectanglecopy12"
+              src={rectangle11}
+            /> */}
 
-          {/* <div className="welcomeback">Welcome Back</div>
+            {/* <div className="welcomeback">Welcome Back</div>
           <div className="rectangle2"></div>
           <div className="rectanglecopy10"></div>
 
@@ -169,72 +179,84 @@ render(){
             <input className="login1 anima-smart-layers-pointers "></input>
           </form> */}
 
-          <Link to="/">
-            <div className="grouped">Grouped</div>
-          </Link>
+            <Link to="/">
+              <div className="grouped">Grouped</div>
+            </Link>
 
-<div className="container">
-                <div className="row" style={{ marginTop: "4rem" }}>
-                    <div className="col s8 offset-s2">
-                        <Link to="/" className="btn-flat waves-effect">
-                           <div className="welcomeback">Welcome Back</div>
-                        </Link>
-                        <div className="login1 anima-smart-layers-pointers" type="submit">Login</div>
+            <div className="container">
+              <div className="row" style={{ marginTop: "4rem" }}>
+                <div className="col s8 offset-s2">
+                  <Link to="/" className="btn-flat waves-effect">
+                    <div className="welcomeback">Welcome Back</div>
+                  </Link>
+                  <div
+                    className="login1 anima-smart-layers-pointers"
+                    type="submit"
+                  >
+                    Login
+                  </div>
 
+                  <p className="grey-text text-darken-1 noAcct">
+                    Don't have an account? <Link to="/register">Register</Link>
+                  </p>
 
-                            
-                            <p className="grey-text text-darken-1">
-                                Don't have an account? <Link to="/register">Register</Link>
-                            </p>
-                        
-                        <form noValidate onSubmit={this.onSubmit}>
-                            <div className=''>
-                                <input onChange={this.onChange} value={this.state.email} error={errors.email} name="email" type="email" className={classnames("","username", { invalid: errors.email || errors.emailnotfound })} />
+                  <form noValidate onSubmit={this.onSubmit}>
+                    <div className="">
+                      <input
+                        placeholder="Email"
+                        onChange={this.onChange}
+                        value={this.state.email}
+                        error={errors.email}
+                        name="email"
+                        type="email"
+                        className={classnames("", "username", {
+                          invalid: errors.email || errors.emailnotfound,
+                        })}
+                      />
 
-                                <div className="usernameLabel">Username</div>
-                                
-                                <span className="red-text">
-                                    {errors.email}
-                                    {errors.emailnotfound}
-                                </span>
-                            </div>
-                            <div className="">
-                                <input onChange={this.onChange} value={this.state.password} error={errors.password} name="password" type="password" className={classnames("", 'password',{ invalid: errors.password || errors.passwordincorrect })} />
-                                
-                                  <div className="passwordLabel">Password</div>
-                        
-
-                                <span className="red-text">
-                                    {errors.password}
-                                    {errors.passwordincorrect}
-                                </span>
-                            </div>
-                            
-                            
-                        </form>
+                      <span className="red-text">
+                        {errors.email}
+                        {errors.emailnotfound}
+                      </span>
                     </div>
+                    <div className="">
+                      <input
+                        placeholder="Password"
+                        onChange={this.onChange}
+                        value={this.state.password}
+                        error={errors.password}
+                        name="password"
+                        type="password"
+                        className={classnames("", "password", {
+                          invalid: errors.password || errors.passwordincorrect,
+                        })}
+                      />
+
+                      <span className="red-text">
+                        {errors.password}
+                        {errors.passwordincorrect}
+                      </span>
+                    </div>
+                  </form>
                 </div>
+              </div>
             </div>
-
-
+          </div>
         </div>
       </div>
-    </div>
-  );
-                              };
+    );
+  }
 }
 
-
-LoginPage.propTypes ={
+LoginPage.propTypes = {
   loginUser: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired,
-  errors: PropTypes.object.isRequired
+  errors: PropTypes.object.isRequired,
 };
 
-const mapStateToProps = state =>({
+const mapStateToProps = (state) => ({
   auth: state.auth,
-  errors:state.errors
+  errors: state.errors,
 });
-
 
 export default connect(mapStateToProps, { loginUser })(LoginPage);

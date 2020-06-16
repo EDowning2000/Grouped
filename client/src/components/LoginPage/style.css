@@ -1025,10 +1025,14 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.passwordLabel{
-  top: 300px;
-  left :387px;
+.noAcct{
+  top: 580px;
+  position: absolute;
+  left: 380px;
 }
+
+
+
 .login .username {
   background-color    : rgba(255,255,255,0.0);
   top                 : 376px;
@@ -1036,7 +1040,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 387px;
+  left                : 380px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
@@ -1052,7 +1056,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 387px;
+  left                : 380px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
@@ -1078,6 +1082,10 @@ div {
   text-align          : center;
   line-height         : 30.0px;
 }
+.red-text{
+  text-align: center;
+}
+
 .login .login1 {
   pointer-events      : auto;
 }

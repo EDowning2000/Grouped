@@ -13,10 +13,10 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 // Add routes, both API and view
-// app.use(routes);
+ app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/eventTracker");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/eventTracker").then(() => console.log('mongo connected')).catch(err => console.log(err));
 
 // Start the API server
 app.listen(PORT, function() {

@@ -10,7 +10,7 @@ import CreateEventPage from "./components/CreateEventPage/CreateEventPage";
 import LandingPage from "./components/LandingPage/LandingPage";
 import SearchEventPage from "./components/SearchEventPage/SearchEventPage";
 import UserProfilePage from "./components/UserProfilePage/UserProfilePage";
-
+import SingleEvent from "./components/SingleEvent/SingleEvent"
 function App() {
   return (
         <Router>
@@ -23,6 +23,7 @@ function App() {
             <Route path="/about" exact component={AboutPage} />
             <Route path="/create" exact component={CreateEventPage} />
             <Route path="/search" exact component={SearchEventPage} />
+            <Route path="/single" exact component={SingleEvent} />
           </Switch>
         </Router>
       

@@ -1,0 +1,102 @@
+.list {
+
+   background-color: rgb(53, 7, 53);
+}
+.noDots > ul li {
+    list-style-type: none;
+}
+
+.listItems {
+    display: inline-block;
+    margin-left: 10px;
+}
+/* for home tab */
+.home1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 20px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 815px;
+    transform           : rotate(0deg);
+    opacity             : 1.0;
+    transition          : all 0.4s ease-in-out;
+    font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
+    font-size           : 22.0px;
+    color               : rgba(253, 253, 254, 1.0);
+    text-align          : center;
+    line-height         : 30.0px;
+  }
+  .home1 {
+    pointer-events      : auto;
+  }
+  .home1:hover {
+    transform           : translate(5px, 0);
+  }
+  /* for about tab */
+.about1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 920px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.4s ease-in-out;
+  font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(253, 254, 254, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.about1 {
+  pointer-events      : auto;
+}
+.about1:hover {
+  transform           : translate(5px, 0);
+}
+/* for profile tab */
+.profile {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 20px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 709px;
+    transform           : rotate(0deg);
+    opacity             : 1.0;
+    transition          : all 0.4s ease-in-out;
+    font-family         : "Futura-MediumItalic", Helvetica, Arial, serif;
+    font-size           : 22.0px;
+    color               : rgba(253, 254, 254, 1.0);
+    text-align          : center;
+    line-height         : 30.0px;
+  }
+.profile {
+    pointer-events      : auto;
+  }
+.profile:hover {
+    transform           : translate(5px, 0);
+  }
+
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+
+/* .rectangle {
+    background-color    : rgba(228, 34, 212, 0);
+    top                 : -22px;
+    height              : 142px;
+    width               : 142px;
+    position            : absolute;
+    margin              : 0;
+    left                : 799px;
+    transform           : rotate(0deg);
+    opacity             : 1.0;
+  } */

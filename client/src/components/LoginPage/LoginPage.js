@@ -13,7 +13,7 @@ import rectangle9 from "../../Images/loginImg/login-rectangle-copy-9@2x.png";
 import rectangle11 from "../../Images/loginImg/login-rectangle-copy-11.png";
 import rectangle13 from "../../Images/loginImg/login-rectangle-copy-13@2x.png";
 
-class Login extends Component{
+export default class Login extends Component{
   constructor(){
     super();
     this.state ={
@@ -174,4 +174,4 @@ function LoginPage() {
     </div>
   );
 }
-export default LoginPage;
+//export default LoginPage;

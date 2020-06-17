@@ -164,6 +164,7 @@ export default class CreateEventPage extends React.Component {
             </Link>
 
             <div className="wrapper">
+              
               <form>
                 <div style={formStyle} className="form-group">
                   <label htmlFor="eventHost">
@@ -250,12 +251,13 @@ export default class CreateEventPage extends React.Component {
                     onFocusChange={({ focused }) => this.setState({ focused })}
                   />
                 </div>
+                
                 <button
                   type="button"
                   onClick={this.handleSubmit}
-                  className="btn btn-primary"
+                  className="create anima-smart-layers-pointers"
                 >
-                  Submit
+                  Create
                 </button>
               </form>
             </div>
@@ -267,17 +269,16 @@ export default class CreateEventPage extends React.Component {
           <div className="zipcode">Zip Code:</div>
           <div className="mmddyyyy">MM/DD/YYYY:</div>
           <div className="time">Time:</div> */}
-            <img
+            {/* <img
               alt="rectangle pic"
               anima-src={rectangle2}
               className="rectangle2"
               src={rectangle2}
-            />
-            <div className="create anima-smart-layers-pointers">Create</div>
+            /> */}
+            
           </div>
         </div>
       </div>
     );
   }
 }
-export default CreateEventPage;

@@ -10,7 +10,7 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
-  Name: {
+  name: {
     type: String,
     uppercase: true,
     required: true,

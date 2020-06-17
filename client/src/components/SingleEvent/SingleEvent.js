@@ -22,4 +22,3 @@ render(props) {
     )
 }
 }
-© 2020 GitH

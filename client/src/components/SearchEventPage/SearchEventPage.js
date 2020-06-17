@@ -217,4 +217,4 @@ export default class SearchEventPage extends React.Component {
     );
   }
 }
-export default SearchEventPage;
+

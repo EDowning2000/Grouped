@@ -26,10 +26,21 @@ const startStyle = {
   position: "relative",
   margin: "auto",
 };
+const buttonStyle = {
+  backgroundcolor: 'rgba(255, 255, 255, 0)',
+  top: '583px',
+  height: '51px',
+  width: '326px',
+  position: 'absolute',
+  margin: 0,
+  left: '350px',
+  transform: 'rotate(0deg)',
+  opacity: 1
+}
 
 class RegisterPage extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       name: "",
       email: "",
@@ -72,6 +83,8 @@ class RegisterPage extends Component {
   };
   render() {
     const { errors } = this.state;
+    console.log(errors)
+    console.log({errors})
 
     return (
       <div style={firstDivStyle}>
@@ -171,8 +184,6 @@ class RegisterPage extends Component {
               src={rectangle11}
             />
 
-
-
             <p className="grey-text text-darken-1 alreadyhasacct">
               Already have an account? <Link to="/login">Login</Link>
             </p>
@@ -221,12 +232,11 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
-              <div className="join anima-smart-layers-pointers " type="submit">
+              <button className="join anima-smart-layers-pointers " type="submit" style={buttonStyle}>
                 join
-              </div>
+              </button>
             </form>
 
-            
             <Link to="/">
               <div className="grouped">Grouped</div>
             </Link>
@@ -234,8 +244,8 @@ class RegisterPage extends Component {
         </div>
       </div>
     );
-  }
-}
+  };
+};
 
 RegisterPage.propTypes = {
   registerUser: PropTypes.func.isRequired,
@@ -251,3 +261,4 @@ const mapStateToProps = (state) => ({
 export default connect(mapStateToProps, { registerUser })(
   withRouter(RegisterPage)
 );
+

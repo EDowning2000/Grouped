@@ -11,6 +11,21 @@
   background-color: rgba(23, 24, 65, 1);
   opacity: 1;
 }
+.form-group{
+  position:absolute;
+  top: 200px;
+  left: 300px;
+  font-family: "Futura-MediumItalic", Helvetica, Arial, serif;
+  font-size: 22px;
+  color: rgba(253, 254, 254, 1);
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+
+
+
 a {
   text-decoration: none;
 }
@@ -991,12 +1006,15 @@ div {
 }
 .createevent .create {
   background-color: rgba(255, 255, 255, 0);
-  top: 633px;
+  top: 573px;
   height: auto;
   width: auto;
   position: absolute;
   margin: 0;
-  left: 485px;
+  left: 450px;
+  // z-index: 2000;
+  // background-color: rgba(206, 61, 208, 1);
+  border: none;
   transform: rotate(0deg);
   opacity: 1;
   transition: all 0.4s ease-in-out;

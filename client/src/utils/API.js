@@ -16,5 +16,9 @@ export default {
   // Saves a event to the database
   saveEvent: function(eventData) {
     return axios.post("/api/events", eventData);
+  },
+  userData: function(id) {
+    return axios.get("/api/user" + id);
   }
+
 };

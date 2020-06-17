@@ -27,9 +27,7 @@ const startStyle = {
   position: "relative",
   margin: "auto",
 };
-const formStyle = {
-  color: "white",
-};
+
 
 export default class CreateEventPage extends React.Component {
   state = {
@@ -166,82 +164,89 @@ export default class CreateEventPage extends React.Component {
             <div className="wrapper">
               
               <form>
-                <div style={formStyle} className="form-group">
+                <div className="one  form-group">
                   <label htmlFor="eventHost">
-                    What is the name of the event host?
+                    {/* Event Host Name */}
                   </label>
                   <input
                     onChange={this.handleChange}
                     type="text"
-                    className="form-control"
+                    className="form-control formStyle"
                     name="eventHost"
                     value={this.state.host}
+                    placeholder="Host Name"
                   ></input>
                 </div>
-                <div style={formStyle} className="form-group">
+                
+                <div className="two form-group">
                   <label htmlFor="eventName">
-                    What is the name of the event?
+                    {/* Event Name */}
                   </label>
                   <input
                     onChange={this.handleChange}
                     type="text"
-                    className="form-control"
+                    className="form-control formStyle"
                     name="eventName"
                     value={this.state.title}
+                    placeholder="Event Name"
                   ></input>
                 </div>
-                <div style={formStyle} className="form-group">
+                <div className="three form-group">
                   <label htmlFor="eventAddress">
-                    What is address of the event?
+                    {/* Event Address */}
                   </label>
                   <input
                     onChange={this.handleChange}
                     type="text"
-                    className="form-control"
+                    className="form-control formStyle"
                     name="address"
                     value={this.state.address}
+                    placeholder="Address"
                   ></input>
                 </div>
-                <div style={formStyle} className="form-group">
+                <div className="four form-group">
                   <label htmlFor="eventZip">
-                    What is the zipcode of the event?
+                    {/* Event Zip code */}
                   </label>
                   <input
                     onChange={this.handleChange}
-                    type="number"
-                    className="form-control"
+                    type="text"
+                    className="form-control formStyle"
                     name="zipCode"
                     value={this.state.zip}
+                    placeholder="zip code"
                   ></input>
                 </div>
 
-                <div style={formStyle} className="form-group">
+                <div className="five form-group">
                   <label htmlFor="eventGuests">
-                    What is the maximum number of guests for the event?
-                  </label>
-                  <input
-                    onChange={this.handleChange}
-                    type="number"
-                    className="form-control"
-                    name="maxGuests"
-                    value={this.state.maxGuests}
-                  ></input>
-                </div>
-                <div style={formStyle} className="form-group">
-                  <label htmlFor="description">
-                    What is a description of the event?
+                    {/* Maximum Guests */}
                   </label>
                   <input
                     onChange={this.handleChange}
                     type="text"
-                    className="form-control"
-                    name="description"
-                    value={this.state.description}
+                    className="form-control formStyle"
+                    name="maxGuests"
+                    value={this.state.maxGuests}
+                    placeholder="max guests"
                   ></input>
                 </div>
-                <div style={formStyle} className="form-group">
+                <div className="six form-group">
+                  <label htmlFor="description">
+                    {/* Event Description */}
+                  </label>
+                  <input
+                    onChange={this.handleChange}
+                    type="text"
+                    className="form-control formStyle"
+                    name="description"
+                    value={this.state.description}
+                    placeholder="description"
+                  ></input>
+                </div>
+                <div className="seven form-group">
                   <label htmlFor="eventDate">
-                    What date will the event be held?
+                    
                   </label>
                   <br></br>
                   <SingleDatePicker
@@ -249,6 +254,7 @@ export default class CreateEventPage extends React.Component {
                     onDateChange={(date) => this.setState({ date: date })}
                     focused={this.state.focused}
                     onFocusChange={({ focused }) => this.setState({ focused })}
+                    className="formStyle"
                   />
                 </div>
                 
@@ -256,6 +262,7 @@ export default class CreateEventPage extends React.Component {
                   type="button"
                   onClick={this.handleSubmit}
                   className="create anima-smart-layers-pointers"
+                  
                 >
                   Create
                 </button>
@@ -269,12 +276,12 @@ export default class CreateEventPage extends React.Component {
           <div className="zipcode">Zip Code:</div>
           <div className="mmddyyyy">MM/DD/YYYY:</div>
           <div className="time">Time:</div> */}
-            {/* <img
+            <img
               alt="rectangle pic"
               anima-src={rectangle2}
               className="rectangle2"
               src={rectangle2}
-            /> */}
+            />
             
           </div>
         </div>

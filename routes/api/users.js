@@ -7,14 +7,14 @@ const keys = require('../../config/keys');
 const validateRegisterInput = require('../../validation/register');
 const validateLoginInput = require('../../validation/login');
 
-const User = require('../../models/User');
+const db = require('../../models');
 
 router.post('/register', (req, res) => {
     const { errors, isValid } = validateRegisterInput(req.body);
 
     if(!isValid) return res.status(400).json(errors);
 
-    const Name = req.body.Name;
+    const name = req.body.Name;
    
     const email = req.body.email;
     const password = req.body.password;
@@ -24,21 +24,16 @@ router.post('/register', (req, res) => {
    
     
 
-    User.findOne({ email }).then(user => {
-        if(user) return res.status(400).json({ email: "Email already exists" });
+    db.User.findOne({ email }).then(user => {
+        console.log(user)
+        if(user) return res.status(400).json({ email: "Email already exists" 
+    });
 
-        const newUser = new User({
-            firstName,
-            lastName,
+        const newUser = new db.User({
+            name,
             email,
             password,
-            address1,
-            address2,
-            city,
-            st,
-            zip,
-            phone,
-            phoneType
+            zip
         });
 
         bcrypt.genSalt(10, (err, salt) => {
@@ -60,7 +55,7 @@ router.post('/login', (req, res) => {
     const email = req.body.email;
     const password = req.body.password;
 
-    User.findOne({ email }).then(user => {
+    db.User.findOne({ email }).then(user => {
   
         if(!user) return res.status(404).json({ emailnotfound: "Email not found" });
 

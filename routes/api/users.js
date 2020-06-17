@@ -14,7 +14,7 @@ router.post('/register', (req, res) => {
 
     if(!isValid) return res.status(400).json(errors);
 
-    const name = req.body.Name;
+    const name = req.body.name;
    
     const email = req.body.email;
     const password = req.body.password;

@@ -40,11 +40,11 @@ class RegisterPage extends Component {
   }
 
   componentDidMount() {
-    if (this.props.auth.isAuthenticated) this.props.history.push("/dashboard");
+    if (this.props.auth.isAuthenticated) this.props.history.push("/home");
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.auth.isAuthenticated) this.props.history.push("/dashboard");
+    if (nextProps.auth.isAuthenticated) this.props.history.push("/home");
 
     if (nextProps.errors) {
       this.setState({
@@ -221,9 +221,9 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
-              <button className="join anima-smart-layers-pointers " type="submit">
+              <div className="join anima-smart-layers-pointers " type="submit">
                 join
-              </button>
+              </div>
             </form>
 
             

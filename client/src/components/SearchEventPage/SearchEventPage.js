@@ -1,6 +1,6 @@
-import React from "react";
-import "./style.css";
-import Bubbles from '../Bubbles/Bubbles';
+import React , {useRef ,Component} from "react";
+import "./style.scss";
+//import Bubbles from '../Bubbles/Bubbles';
 import { Link } from "react-router-dom";
 import API from '../../utils/API';
 import Header from '../Header/Header'
@@ -14,6 +14,12 @@ import Header from '../Header/Header'
 // import rectangle9 from "../../Images/SearchEventImg/search-event-rectangle-copy-9@2x.png";
 // import rectangle13 from "../../Images/SearchEventImg/search-event-rectangle-copy-13@2x.png";
 // import rectangle14 from "../../Images/SearchEventImg/search-event-rectangle-copy@2x.png";
+ // import event3 from '../Images/ExampleEventImgs/eventimg3'
+
+//
+
+  //Add an add event image option in form then 
+   //
 
 const firstDivStyle = {
   margin: "0",
@@ -31,30 +37,17 @@ const cardStyle = {
   margin: "5px",
   padding: "2px"
 }
-
-
-// handlePost = event => {
-
-//     this.setState({eventbyPost: PostForm})
+// add1 = {i} {
+//   i++
 // }
-
-
-
-// return(
-//     <>
-//     <div>testing</div>
-//     <ul>
-//         {this.state.events.map(event => <li key= {event.id}>{event.host}</li>)}
-//     </ul>
-//     </>
-// )
-
-
-
-
-
-export default class SearchEventPage extends React.Component {
-  componentDidMount() {
+class SearchEventPage extends Component {
+ constructor(props) {
+    super(props);
+    this.state = {
+      events: [],
+      singleEvent: []
+    }
+  } componentDidMount() {
     API.getEvents()
       .then(
         res => {
@@ -71,6 +64,7 @@ export default class SearchEventPage extends React.Component {
             let guests = event.maxGuests;
             let zip = event.zipCode;
             let id = event._id;
+           // let img = event.picRef
             console.log(name, host, date, description, guests)
             return { name, date, host, description, guests, zip, id }
           })
@@ -80,13 +74,7 @@ export default class SearchEventPage extends React.Component {
       ).catch(err => console.log(err));
 
   }
-  constructor(props) {
-    super(props);
-    this.state = {
-      events: [],
-    singleEvent: []
-    }
-  }
+  
   // state = {
     
   // }
@@ -105,16 +93,16 @@ export default class SearchEventPage extends React.Component {
   // }
   // handleInfo = (eventInfo) => {
   //  console.log(eventInfo)
-  handleEvent = (id) => {
-    console.log(id)
-    API.getEvent(id).then(
-      res => {
-        let data = res.data;
-        this.setState({ singleEvent: data })
-      }
-    )
-    .catch(err => console.log(err))
-  }
+  // handleEvent = (id) => {
+  //   console.log(id)
+  //   API.getEvent(id).then(
+  //     res => {
+  //       let data = res.data;
+  //       this.setState({ singleEvent: data })
+  //     }
+  //   )
+  //   .catch(err => console.log(err))
+  // }
 
   render() {
     return (
@@ -129,16 +117,23 @@ export default class SearchEventPage extends React.Component {
               {
                 this.state.events.map(event => {
                   return (
-
+                  //bring I iinto function assign to event className 
+                  
                     <div class="card col-sm-4" style={{ cardStyle }}>
                       <div class="card-body">
+                        <img alt="event picture"
+                        className= 'eventImg'
+                        ref={this.state.picRef}
+                        onChange={this.state.imageUploader}
+                        />
                         <h5 class="card-title">{event.name}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">{event.host}</h6>
                         <p class="card-text">{event.description}</p>
-                        <Link to = "/single"><button onClick={this.handleEvent(event.id)} class="btn btn lg">See full event!</button></Link>
+                        <Link to = {`/single/${event.id}`}><button class="btn btn lg">See full event!</button></Link>
                       </div>
                     </div>
-
+                    
+                    
 
                   )
                 })
@@ -149,7 +144,7 @@ export default class SearchEventPage extends React.Component {
 
 
           <div style={startStyle}>
-            {/* <img 
+                        {/* <img 
             alt="rectangle pic"
             anima-src={rectangle5}
             className="rectangle anima-animate-enter"
@@ -260,4 +255,4 @@ export default class SearchEventPage extends React.Component {
     );
   }
 }
-//export default SearchEventPage;
+export default SearchEventPage;

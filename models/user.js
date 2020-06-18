@@ -10,12 +10,7 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
-  firstName: {
-    type: String,
-    uppercase: true,
-    required: true,
-  },
-  lastName: {
+  Name: {
     type: String,
     uppercase: true,
     required: true,
@@ -31,7 +26,7 @@ const UserSchema = new Schema({
       },
       message: (props) => `${props.value} invalid zip`,
     },
-  },
-});
+  }
+})
 
 module.exports = User = mongoose.model("User", UserSchema);

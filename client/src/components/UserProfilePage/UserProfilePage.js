@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./style.scss";
 import { Link } from "react-router-dom";
 
 import rectangle0 from "../../Images/UserProfileImg/user-profile--profile-photo@2x.png";
@@ -117,19 +117,14 @@ function UserProfilePage() {
             <div className="about1 anima-smart-layers-pointers ">About</div>
           </Link>
 
-          <div className="grouped">Grouped</div>
-          <img
-            alt="profile pic"
-            anima-src={rectangle0}
-            className="profilephoto"
-            src={rectangle0}
-          />
+          <Link to='/home'><div className="grouped">Grouped</div></Link>
+          
 
-          <div className="rectangle2"></div>
-          <div className="rectanglecopy10"></div>
-          <div className="name">Name:</div>
-          <div className="zipcode">zip code:</div>
-          <Link to="/home">
+          
+          
+          <div className="name">Name: Kyle Smith</div>
+          <div className="zipcode">zip code: 34786</div>
+          <Link to="/">
             <div className="home1 anima-smart-layers-pointers ">Home</div>
           </Link>
           <Link to="/user">

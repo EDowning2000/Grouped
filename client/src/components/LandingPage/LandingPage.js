@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./style.scss";
 import { Link } from "react-router-dom";
 
 import rectangle1 from "../../Images/LandingPageImg/landing-page-rectangle-1@2x.png";
@@ -21,6 +21,10 @@ const startStyle = {
   position: "relative",
   margin: "auto",
 };
+const randomStyle={
+  width: '60px',
+  height:'40px'
+}
 
 function LandingPage() {
   return (
@@ -39,7 +43,8 @@ function LandingPage() {
             </div>
           </Link>
           <Link to="/login">
-            <div className="login anima-smart-layers-pointers ">Login</div>
+            <span className="login anima-smart-layers-pointers" style={randomStyle}>
+              Login</span>
           </Link>
 
           <img

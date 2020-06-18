@@ -12,6 +12,6 @@ const eventSchema = new Schema({
   time:{type: String, required: false}
 })
 
-const Event = mongoose.model('Event', eventSchema);
+// const Event = 
 
-module.exports = Event;
+module.exports = Event = mongoose.model('Event', eventSchema);

@@ -68,7 +68,7 @@ class LoginPage extends Component {
     this.setState({ [e.target.name]: e.target.value });
   };
   onSubmit = (e) => {
-    e.preventdefault();
+    e.preventDefault();
     console.log(`sumbit`);
 
     const userData = {
@@ -184,6 +184,7 @@ class LoginPage extends Component {
                   <Link to="/" className="btn-flat waves-effect">
                     <div className="welcomeback">Welcome Back</div>
                   </Link>
+<<<<<<< HEAD
                   <Link to= '/home'><button
                     className="login1 anima-smart-layers-pointers"
                     type="submit"
@@ -191,12 +192,22 @@ class LoginPage extends Component {
                   >
                     Login
                   </button></Link>
+=======
+                  {/* <button
+                    className="login1 anima-smart-layers-pointers"
+                    type="button" onClick={this.onSubmit}
+                  >
+                    Login
+                  </button> */}
+>>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
 
                   <p className="grey-text text-darken-1 noAcct">
                     Don't have an account? <Link to="/register">Register</Link>
                   </p>
 
-                  <form noValidate onSubmit={this.onSubmit}>
+                  <form noValidate 
+                  // 
+                  >
                     <div className="">
                       <input
                         placeholder="Email"
@@ -232,6 +243,13 @@ class LoginPage extends Component {
                         {errors.password}
                         {errors.passwordincorrect}
                       </span>
+                      <button
+                    className="login1 anima-smart-layers-pointers"
+                    type="button" 
+                    onClick={this.onSubmit}
+                  >
+                    Login
+                  </button>
                     </div>
                   </form>
                 </div>

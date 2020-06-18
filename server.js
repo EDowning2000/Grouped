@@ -1,4 +1,7 @@
 const express = require("express");
+// const bodyParser = require('body-parser')
+const passport = require('passport');
+const users = require('./routes/api/users');
 
 const mongoose = require("mongoose");
 const routes = require("./routes/index");
@@ -17,6 +20,9 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/eventTracker").then(() => console.log('mongo connected')).catch(err => console.log(err));
+app.use(passport.initialize())
+require('./config/passport')(passport);
+app.use("/api/users", users)
 
 // Start the API server
 app.listen(PORT, function() {

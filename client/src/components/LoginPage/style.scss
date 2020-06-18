@@ -10,6 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(23, 24, 65, 1);
   opacity: 1;
+  border-style: none;
 }
 a {
   text-decoration: none;
@@ -878,6 +879,7 @@ div {
 }
 .login .login1 {
   background-color: rgba(255, 255, 255, 0);
+  border-style: none;
   top: 522px;
   height: auto;
   width: auto;

@@ -14,7 +14,7 @@ router.post('/register', (req, res) => {
 
     if(!isValid) return res.status(400).json(errors);
 
-    const Name = req.body.Name;
+    const name = req.body.name;
    
     const email = req.body.email;
     const password = req.body.password;
@@ -25,20 +25,15 @@ router.post('/register', (req, res) => {
     
 
     db.User.findOne({ email }).then(user => {
-        if(user) return res.status(400).json({ email: "Email already exists" });
+        console.log(user)
+        if(user) return res.status(400).json({ email: "Email already exists" 
+    });
 
-        const newUser = new User({
-            firstName,
-            lastName,
+        const newUser = new db.User({
+            name,
             email,
             password,
-            address1,
-            address2,
-            city,
-            st,
-            zip,
-            phone,
-            phoneType
+            zip
         });
 
         bcrypt.genSalt(10, (err, salt) => {

@@ -17,6 +17,7 @@ import SearchEventPage from "./components/SearchEventPage/SearchEventPage";
 import UserProfilePage from "./components/UserProfilePage/UserProfilePage";
 import SingleEvent from "./components/SingleEvent/SingleEvent";
 //import PrivateRoute from './components/PrivateRoute';
+import PrivateRoute from "./components/PrivateRoute";
 
 if (localStorage.jwtToken) {
   const token = localStorage.jwtToken;
@@ -36,11 +37,15 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
+          <Switch>
+        <Route path="/" exact component={LandingPage} />
+        <Route path="/login" exact component={LoginPage} />
+        <Route path="/register" exact component={RegisterPage} />
         
           <Route path="/" exact component={LandingPage} />
           <Route path="/login" exact component={LoginPage} />
           <Route path="/register" exact component={RegisterPage} />
-            <Switch>
+            {/* <Switch> */}
               
           <Route path="/home" exact component={HomePage} />
           <Route path="/user" exact component={UserProfilePage} />
@@ -48,7 +53,14 @@ function App() {
           <Route path="/create" exact component={CreateEventPage} />
           <Route path="/search" exact component={SearchEventPage} />
           <Route path="/single/:id" exact component={SingleEvent} />
-        </Switch>
+        {/* </Switch>
+          <PrivateRoute path="/home" exact component={HomePage} />
+        
+        <Route path="/user" exact component={UserProfilePage} />
+        <Route path="/about" exact component={AboutPage} />
+        <Route path="/create" exact component={CreateEventPage} />
+        <Route path="/search" exact component={SearchEventPage} /> */}
+          </Switch>
       </Router>
     </Provider>
   );

@@ -9,9 +9,8 @@ module.exports = function validateRegisterInput(data){
 });
 
 
-if(Validator.isEmpty(data.firstName)) errors.firstName = "First Name field is required";
+if(Validator.isEmpty(data.name)) errors.name = "Name field is required";
 
-if(Validator.isEmpty(data.lastName)) errors.lastName = "Last Name field is required";
 
 if(Validator.isEmpty(data.email)){
     errors.email = "Email field is required";
@@ -31,9 +30,9 @@ if(Validator.isEmpty(data.password2)){
     errors.password2 = "Passwords must match";
 }
 
-if(Validator.isEmpty(data.zip)){
-    errors.zip = "A 5-digit or 9-digit zip code must be provided"
-} 
+// if(Validator.isEmpty(data.zip)){
+//     errors.zip = "A 5-digit or 9-digit zip code must be provided"
+// } 
 
 return {
     errors,

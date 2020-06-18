@@ -37,9 +37,13 @@ const buttonStyle = {
   transform: 'rotate(0deg)',
   opacity: 1
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
 class RegisterPage extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       name: "",
       email: "",
@@ -82,7 +86,13 @@ class RegisterPage extends Component {
   };
   render() {
     const { errors } = this.state;
+<<<<<<< HEAD
     // console.log(errors.password)
+=======
+    console.log(errors)
+    console.log({errors})
+
+>>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
     return (
       <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="register" />
@@ -181,8 +191,6 @@ class RegisterPage extends Component {
               src={rectangle11}
             />
 
-
-
             <p className="grey-text text-darken-1 alreadyhasacct">
               Already have an account? <Link to="/login">Login</Link>
             </p>
@@ -231,12 +239,15 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
+<<<<<<< HEAD
               <button style={buttonStyle} className="join anima-smart-layers-pointers " type="submit">
+=======
+              <button className="join anima-smart-layers-pointers " type="submit" style={buttonStyle}>
+>>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
                 join
               </button>
             </form>
 
-            
             <Link to="/">
               <div className="grouped">Grouped</div>
             </Link>
@@ -244,8 +255,8 @@ class RegisterPage extends Component {
         </div>
       </div>
     );
-  }
-}
+  };
+};
 
 RegisterPage.propTypes = {
   registerUser: PropTypes.func.isRequired,
@@ -261,3 +272,4 @@ const mapStateToProps = (state) => ({
 export default connect(mapStateToProps, { registerUser })(
   withRouter(RegisterPage)
 );
+

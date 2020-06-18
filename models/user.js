@@ -10,7 +10,7 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
-  Name: {
+  name: {
     type: String,
     uppercase: true,
     required: true,
@@ -19,7 +19,7 @@ const UserSchema = new Schema({
     type: String,
     minlength: 5,
     maxlength: 9,
-    required: true,
+    required: false,
     validate: {
       validator: function (v) {
         return /\d/.test(v);

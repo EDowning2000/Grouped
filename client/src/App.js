@@ -40,7 +40,7 @@ function App() {
         <Route path="/login" exact component={LoginPage} />
         <Route path="/register" exact component={RegisterPage} />
         
-          <PrivateRoute path="/home" exact component={HomePage} />
+          <Route path="/home" exact component={HomePage} />
         
         <Route path="/user" exact component={UserProfilePage} />
         <Route path="/about" exact component={AboutPage} />

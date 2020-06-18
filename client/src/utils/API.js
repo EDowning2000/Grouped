@@ -20,5 +20,4 @@ export default {
   userData: function(id) {
     return axios.get("/api/user" + id);
   }
-
 };

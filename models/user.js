@@ -26,7 +26,7 @@ const UserSchema = new Schema({
       },
       message: (props) => `${props.value} invalid zip`,
     },
-  },
-});
+  }
+})
 
 module.exports = User = mongoose.model("User", UserSchema);

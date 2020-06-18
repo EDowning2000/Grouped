@@ -5,7 +5,6 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-
 import rectangle1 from "../../Images/loginImg/login-rectangle-1@2x.png";
 import rectangle2 from "../../Images/loginImg/login-rectangle-copy-2@2x.png";
 import rectangle5 from "../../Images/loginImg/login-rectangle-copy-5@2x.png";
@@ -25,6 +24,24 @@ const startStyle = {
   height: "100%",
   position: "relative",
   margin: "auto",
+};
+
+const buttonStyle = {
+  backgroundcolor: 'rgba(255, 255, 255, 0)',
+  top: '522px',
+  height: 'auto',
+  width: 'auto',
+  position: 'absolute',
+  margin: '0',
+  left: '448px',
+  transform: 'rotate(0deg)',
+  opacity: '1',
+  transition: 'all 0.4s ease-in-out',
+  fontfamily: 'Futura-MediumItalic, Helvetica, Arial, serif',
+  fontsize: '22px',
+  color: 'rgba(252, 252, 253, 1)',
+  textalign: 'center',
+  lineheight: '30px',
 };
 
 class LoginPage extends Component {
@@ -167,12 +184,13 @@ class LoginPage extends Component {
                   <Link to="/" className="btn-flat waves-effect">
                     <div className="welcomeback">Welcome Back</div>
                   </Link>
-                  {/* <button
+                  <Link to= '/home'><button
                     className="login1 anima-smart-layers-pointers"
-                    type="button" onClick={this.onSubmit}
+                    type="submit"
+                    style = {buttonStyle}
                   >
                     Login
-                  </button> */}
+                  </button></Link>
 
                   <p className="grey-text text-darken-1 noAcct">
                     Don't have an account? <Link to="/register">Register</Link>

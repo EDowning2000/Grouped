@@ -13,17 +13,30 @@
   background-color: rgba(23, 24, 65, 1);
   opacity: 1;
 }
-// .form-group{
-//   position:absolute;
-//   top: 200px;
-//   left: 300px;
-//   font-family: "Futura-MediumItalic", Helvetica, Arial, serif;
-//   font-size: 22px;
-//   color: rgba(253, 254, 254, 1);
-//   text-align: center;
-//   padding-bottom: 20px;
+.form-group{
+  position:absolute;
+  top: 200px;
+  left: 300px;
+  font-family: "Futura-MediumItalic", Helvetica, Arial, serif;
+  font-size: 22px;
+  color: rgba(253, 254, 254, 1);
+  text-align: center;
+  padding-bottom: 20px;
 
-// }
+}
+.evtForm{
+  position: absolute;
+  top:50px;
+}
+
+.eventHost{
+  position:absolute;
+  left:60px
+}
+.Date{
+  position: absolute;
+  left:2000px
+}
 
 .one{
   position:absolute;
@@ -86,7 +99,7 @@
   .seven{
     position:absolute;
   top: 500px;
-  left: 410px;
+  left: 430px;
   font-family: "Futura-MediumItalic", Helvetica, Arial, serif;
   font-size: 22px;
   color: rgba(253, 254, 254, 1);
@@ -751,11 +764,11 @@ div {
   transform: rotate(0deg);
   opacity: 1;
 }
-.createevent .rectanglecopy2 {
+ .rectanglecopy2 {
   opacity: 0;
   transform: translate(-25px, 0);
 }
-.createevent .rectanglecopy3 {
+ .rectanglecopy3 {
   background-color: rgba(255, 255, 255, 0);
   top: 167px;
   height: 142px;
@@ -766,7 +779,7 @@ div {
   transform: rotate(0deg);
   opacity: 1;
 }
-.createevent .rectanglecopy4 {
+ .rectanglecopy4 {
   background-color: rgba(255, 255, 255, 0);
   top: 167px;
   height: 142px;
@@ -777,7 +790,7 @@ div {
   transform: rotate(0deg);
   opacity: 1;
 }
-.createevent .rectangle1 {
+.rectangle1 {
   background-color: rgba(255, 255, 255, 0);
   top: 244px;
   height: 188px;
@@ -788,11 +801,11 @@ div {
   transform: rotate(0deg);
   opacity: 1;
 }
-.createevent .rectangle1 {
+.rectangle1 {
   opacity: 0;
   transform: translate(-25px, 0);
 }
-.createevent .rectanglecopy8 {
+.rectanglecopy8 {
   background-color: rgba(255, 255, 255, 0);
   top: 866px;
   height: 188px;
@@ -1094,10 +1107,10 @@ div {
   background-color: rgba(255, 255, 255, 0);
   top: 600px;
   height: auto;
-  width: auto;
+  width: 81px;
   position: absolute;
   margin: 0;
-  left: 450px;
+  left: 457px;
   z-index: 2000;
   // background-color: rgba(206, 61, 208, 1);
   border: none;

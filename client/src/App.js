@@ -42,28 +42,12 @@ function App() {
         <Route path="/login" exact component={LoginPage} />
         <Route path="/register" exact component={RegisterPage} />
         
-<<<<<<< HEAD
           <Route path="/home" exact component={HomePage} />
-=======
-          <Route path="/" exact component={LandingPage} />
-          <Route path="/login" exact component={LoginPage} />
-          <Route path="/register" exact component={RegisterPage} />
-            {/* <Switch> */}
-              
-          <Route path="/home" exact component={HomePage} />
-          <Route path="/user" exact component={UserProfilePage} />
-          <Route path="/about" exact component={AboutPage} />
-          <Route path="/create" exact component={CreateEventPage} />
-          <Route path="/search" exact component={SearchEventPage} />
-          <Route path="/single/:id" exact component={SingleEvent} />
-        {/* </Switch>
-          <PrivateRoute path="/home" exact component={HomePage} />
->>>>>>> ef599b24a864ff69cc2417b3cf8d680fc915c952
         
         <Route path="/user" exact component={UserProfilePage} />
         <Route path="/about" exact component={AboutPage} />
         <Route path="/create" exact component={CreateEventPage} />
-        <Route path="/search" exact component={SearchEventPage} /> */}
+        <Route path="/search" exact component={SearchEventPage} /> *
           </Switch>
       </Router>
     </Provider>

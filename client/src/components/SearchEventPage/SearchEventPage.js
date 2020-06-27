@@ -4,19 +4,19 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 import API from '../../utils/API';
 import Header from '../Header/Header'
-// import rectangle1 from "../../Images/SearchEventImg/search-event-rectangle-1@2x.png";
-// import rectangle2 from "../../Images/SearchEventImg/search-event-rectangle-2@2x.png";
-// import rectangle0 from "../../Images/SearchEventImg/search-event-rectangle-copy-2@2x.png";
-// import rectangle5 from "../../Images/SearchEventImg/search-event-rectangle-copy-5@2x.png";
-// import rectangle6 from "../../Images/SearchEventImg/search-event-rectangle-copy-6.png";
-// import rectangle7 from "../../Images/SearchEventImg/search-event-rectangle-copy-7@2x.png";
-// import rectangle8 from "../../Images/SearchEventImg/search-event-rectangle-copy-8@2x.png";
-// import rectangle9 from "../../Images/SearchEventImg/search-event-rectangle-copy-9@2x.png";
-// import rectangle13 from "../../Images/SearchEventImg/search-event-rectangle-copy-13@2x.png";
-// import rectangle14 from "../../Images/SearchEventImg/search-event-rectangle-copy@2x.png";
- // import event3 from '../Images/ExampleEventImgs/eventimg3'
+import rectangle1 from "../../Images/SearchEventImg/search-event-rectangle-1@2x.png";
+import rectangle2 from "../../Images/SearchEventImg/search-event-rectangle-2@2x.png";
+import rectangle0 from "../../Images/SearchEventImg/search-event-rectangle-copy-2@2x.png";
+import rectangle5 from "../../Images/SearchEventImg/search-event-rectangle-copy-5@2x.png";
+import rectangle6 from "../../Images/SearchEventImg/search-event-rectangle-copy-6.png";
+import rectangle7 from "../../Images/SearchEventImg/search-event-rectangle-copy-7@2x.png";
+import rectangle8 from "../../Images/SearchEventImg/search-event-rectangle-copy-8@2x.png";
+import rectangle9 from "../../Images/SearchEventImg/search-event-rectangle-copy-9@2x.png";
+import rectangle13 from "../../Images/SearchEventImg/search-event-rectangle-copy-13@2x.png";
+import rectangle14 from "../../Images/SearchEventImg/search-event-rectangle-copy@2x.png";
+//  import event3 from '../Images/ExampleEventImgs/eventimg3'
 
-//
+
 
   //Add an add event image option in form then 
    //
@@ -107,7 +107,7 @@ class SearchEventPage extends Component {
   render() {
     return (
       <div style={firstDivStyle}>
-        <Header></Header>
+        
         <input id="anPageName" name="page" type="hidden" value="searchevent" />
         <div className="searchevent anima-word-break ">
 
@@ -144,14 +144,14 @@ class SearchEventPage extends Component {
 
 
           <div style={startStyle}>
-                        {/* <img 
+                        <img 
             alt="rectangle pic"
             anima-src={rectangle5}
             className="rectangle anima-animate-enter"
             src={rectangle5}
-          /> */}
+          />
 
-            {/* <img
+            <img
             alt="rectangle pic"
             anima-src={rectangle14}
             className="rectanglecopy anima-animate-enter1"
@@ -163,9 +163,9 @@ class SearchEventPage extends Component {
             anima-src={rectangle0}
             className="rectanglecopy2 anima-animate-enter2"
             src={rectangle0}
-          /> */}
+          /> 
 
-            {/* <img
+             <img
             alt="rectangle pic"
             anima-src={rectangle5}
             className="rectanglecopy3"
@@ -184,9 +184,9 @@ class SearchEventPage extends Component {
             anima-src={rectangle1}
             className="rectangle1 anima-animate-enter3"
             src={rectangle1}
-          /> */}
+          />
 
-            {/* <img
+            <img
             alt="rectangle pic"
             anima-src={rectangle8}
             className="rectanglecopy8 anima-animate-enter4"
@@ -205,16 +205,16 @@ class SearchEventPage extends Component {
             anima-src={rectangle5}
             className="rectanglecopy5 anima-animate-enter6"
             src={rectangle5}
-          /> */}
+          />
 
-            {/* <img
+            <img
             alt="rectangle pic"
             anima-src={rectangle6}
             className="rectanglecopy6 anima-animate-enter7"
             src={rectangle6}
-          /> */}
+          />
 
-            {/* <img
+             <img
             alt="rectangle pic"
             anima-src={rectangle13}
             className="rectanglecopy13 anima-animate-enter8"
@@ -226,10 +226,10 @@ class SearchEventPage extends Component {
             anima-src={rectangle7}
             className="rectanglecopy7 anima-animate-enter9"
             src={rectangle7}
-          /> */}
+          /> 
 
-            {/* <div className="grouped">Grouped</div> */}
-            {/* <Link to="/home">
+            <div className="grouped">Grouped</div> 
+            <Link to="/home">
             <div className="home1 anima-smart-layers-pointers ">Home</div>
           </Link>
           <Link to="/user">
@@ -237,18 +237,18 @@ class SearchEventPage extends Component {
           </Link>
           <Link to="/about">
             <div className="about1 anima-smart-layers-pointers ">About</div>
-          </Link> */}
-            {/* <div className="enterzip">Enter Zip</div> */}
-            {/* <img
+          </Link>
+            <div className="enterzip">Enter Zip</div>
+            <img
             alt="rectangle pic"
             anima-src={rectangle2}
             className="rectangle2"
             src={rectangle2}
-          /> */}
+          />
 
             <div className="search anima-smart-layers-pointers ">Search</div>
 
-            {/* <div className="rectangle3"></div> */}
+            <div className="rectangle3"></div>
           </div>
         </div>
       </div>

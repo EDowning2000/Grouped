@@ -16,11 +16,6 @@ import rectangle13 from "../../Images/SearchEventImg/search-event-rectangle-copy
 import rectangle14 from "../../Images/SearchEventImg/search-event-rectangle-copy@2x.png";
 //  import event3 from '../Images/ExampleEventImgs/eventimg3'
 
-
-
-  //Add an add event image option in form then 
-   //
-
 const firstDivStyle = {
   margin: "0",
   background: "rgba(22,24,56,1.0)",
@@ -112,7 +107,7 @@ class SearchEventPage extends Component {
         <div className="searchevent anima-word-break ">
 
 
-          <div class="container">
+          {/* <div class="container">
             <div class="row">
               {
                 this.state.events.map(event => {
@@ -139,7 +134,7 @@ class SearchEventPage extends Component {
                 })
               }
             </div>
-          </div>
+          </div> */}
 
 
 
@@ -249,6 +244,34 @@ class SearchEventPage extends Component {
             <div className="search anima-smart-layers-pointers ">Search</div>
 
             <div className="rectangle3"></div>
+            <div class="container">
+            <div class="row">
+              {
+                this.state.events.map(event => {
+                  return (
+                  //bring I iinto function assign to event className 
+                  
+                    <div class="card col-sm-4" style={{ cardStyle }}>
+                      <div class="card-body">
+                        <img alt="event picture"
+                        className= 'eventImg'
+                        ref={this.state.picRef}
+                        onChange={this.state.imageUploader}
+                        />
+                        <h5 class="card-title">{event.name}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{event.host}</h6>
+                        <p class="card-text">{event.description}</p>
+                        <Link to = {`/single/${event.id}`}><button class="btn btn lg">See full event!</button></Link>
+                      </div>
+                    </div>
+                    
+                    
+
+                  )
+                })
+              }
+            </div>
+          </div>
           </div>
         </div>
       </div>

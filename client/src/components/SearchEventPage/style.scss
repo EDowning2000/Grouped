@@ -837,6 +837,10 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
+.container{
+  position:absolute;
+  top: 0px;
+}
 .searchevent .rectanglecopy2 {
   opacity             : 0;
   transform           : translate(-25px, 0);
@@ -1050,10 +1054,10 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 219px;
   height              : 39px;
-  width               : 93px;
+  width               : 220px;
   position            : absolute;
   margin              : 0;
-  left                : 466px;
+  left                : 400px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }

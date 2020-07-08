@@ -59,7 +59,7 @@ class LoginPage extends Component {
   componentWillReceiveProps(nextProps) {
     if (nextProps.auth.isAuthenticated) this.props.history.push("/home");
     if (nextProps.errors) {
-      this.state=({
+    this.state=({
         errors: nextProps.errors,
       });
     }
@@ -187,7 +187,7 @@ class LoginPage extends Component {
                   <Link to= '/home'><button
                     className="login1 anima-smart-layers-pointers"
                     type="submit"
-                    style = {buttonStyle}
+                    
                   >
                     Login
                   </button></Link>
@@ -234,13 +234,13 @@ class LoginPage extends Component {
                         {errors.password}
                         {errors.passwordincorrect}
                       </span>
-                      <button
+                      {/* <button
                     className="login1 anima-smart-layers-pointers"
                     type="button" 
                     onClick={this.onSubmit}
                   >
                     Login
-                  </button>
+                  </button> */}
                     </div>
                   </form>
                 </div>

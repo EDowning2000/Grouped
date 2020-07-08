@@ -1,25 +1,23 @@
-import React , {Component, useRef}from "react";
+import React, { Component } from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
 import "react-dates/initialize";
 import API from "../../utils/API";
 import { SingleDatePicker } from "react-dates";
-import Header from '../Header/Header';
+
 import "react-dates/lib/css/_datepicker.css";
 
-// import rectangle1 from "../../Images/CreateEventImg/create-event-rectangle-1@2x.png";
-// import rectangle2 from "../../Images/CreateEventImg/create-event-rectangle-2@2x.png";
-// import rectangle0 from "../../Images/CreateEventImg/create-event-rectangle-copy-2@2x.png";
-// import rectangle3 from "../../Images/CreateEventImg/create-event-rectangle-copy-3@2x.png";
-// import rectangle6 from "../../Images/CreateEventImg/create-event-rectangle-copy-6.png";
-// import rectangle7 from "../../Images/CreateEventImg/create-event-rectangle-copy-7@2x.png";
-// import rectangle8 from "../../Images/CreateEventImg/create-event-rectangle-copy-8@2x.png";
-// import rectangle9 from "../../Images/CreateEventImg/create-event-rectangle-copy-9@2x.png";
-// import rectangle13 from "../../Images/CreateEventImg/create-event-rectangle-copy-13@2x.png";
-// import rectangle14 from "../../Images/CreateEventImg/create-event-rectangle-copy@2x.png";
-
-
-
+import rectangle1 from "../../Images/CreateEventImg/create-event-rectangle-1@2x.png";
+import rectangle2 from "../../Images/CreateEventImg/create-event-rectangle-2@2x.png";
+import rectangle0 from "../../Images/CreateEventImg/create-event-rectangle-copy-2@2x.png";
+import rectangle3 from "../../Images/CreateEventImg/create-event-rectangle-copy-3@2x.png";
+import rectangle6 from "../../Images/CreateEventImg/create-event-rectangle-copy-6.png";
+import rectangle7 from "../../Images/CreateEventImg/create-event-rectangle-copy-7@2x.png";
+import rectangle8 from "../../Images/CreateEventImg/create-event-rectangle-copy-8@2x.png";
+import rectangle9 from "../../Images/CreateEventImg/create-event-rectangle-copy-9@2x.png";
+import rectangle11 from "../../Images/loginImg/login-rectangle-copy-11.png";
+import rectangle13 from "../../Images/CreateEventImg/create-event-rectangle-copy-13@2x.png";
+import rectangle14 from "../../Images/CreateEventImg/create-event-rectangle-copy@2x.png";
 
 const firstDivStyle = {
   margin: "0",
@@ -31,13 +29,12 @@ const startStyle = {
   position: "relative",
   margin: "auto",
 };
-
+const formStyle = {
+  color: "white",
+};
 
 class CreateEventPage extends Component {
-    //imageUploader = useRef(null)
-   // uploadedImage = useRef(null)
-  
-    state = {
+  state = {
     eventName: "",
     eventHost: "",
     address: "",
@@ -46,10 +43,7 @@ class CreateEventPage extends Component {
     description: "",
     date: "",
     time: "",
-    picRef: this.uploadedImage
-
   };
-
 
   handleSubmit = (e) => {
     e.preventDefault();
@@ -57,41 +51,115 @@ class CreateEventPage extends Component {
     API.saveEvent(this.state)
       .then((res) => {
         console.log(res);
-        document.getElementById('evtForm').reset();
+        document.getElementById("evtForm").reset();
       })
       .catch((err) => console.log(err));
   };
-
   handleChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value,
     });
   };
-  
-  handleImgUpload = (e) => {
-    const [file] = e.target.files;
-    if (file) {
-      console.log(file)
-      const reader = new FileReader();
-      const {current} = this.uploadedImage;
-      current.file = file;
-      reader.onload = (e) => {
-        current.src = e.target.result
-      }
-      reader.readAsDataURL(file)
-    }
-  }
+
   render() {
     return (
       <div style={firstDivStyle}>
-        <Header></Header>
         <input id="anPageName" name="page" type="hidden" value="createevent" />
         <div className="createevent anima-word-break ">
           <div style={startStyle}>
-          
-            {/* <div className="grouped">Grouped</div> */}
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle3}
+              className="rectangle anima-animate-enter"
+              src={rectangle3}
+            />
 
-            {/* <Link to="/home">
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle14}
+              className="rectanglecopy anima-animate-enter1"
+              src={rectangle14}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle0}
+              className="rectanglecopy2 anima-animate-enter2"
+              src={rectangle0}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle3}
+              className="rectanglecopy3"
+              src={rectangle3}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle3}
+              className="rectanglecopy4"
+              src={rectangle3}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle1}
+              className="rectangle1 anima-animate-enter3"
+              src={rectangle1}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle8}
+              className="rectanglecopy8 anima-animate-enter4"
+              src={rectangle8}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle9}
+              className="rectanglecopy9 anima-animate-enter5"
+              src={rectangle9}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle3}
+              className="rectanglecopy5 anima-animate-enter6"
+              src={rectangle3}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle6}
+              className="rectanglecopy6 anima-animate-enter7"
+              src={rectangle6}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle13}
+              className="rectanglecopy13 anima-animate-enter8"
+              src={rectangle13}
+            />
+
+            <img
+              alt="rectangle pic"
+              anima-src={rectangle7}
+              className="rectanglecopy7 anima-animate-enter9"
+              src={rectangle7}
+            />
+            <img
+            alt="rectangle pic"
+            anima-src={rectangle11}
+            className="rectanglecopy11 "
+            src={rectangle11}
+            />
+
+            <div className="grouped">Grouped</div>
+
+            <Link to="/home">
               <div className="home1 anima-smart-layers-pointers ">Home</div>
             </Link>
 
@@ -103,28 +171,30 @@ class CreateEventPage extends Component {
 
             <Link to="/about">
               <div className="about1 anima-smart-layers-pointers ">About</div>
-            </Link> */}
-
+            </Link>
             <div className="wrapper">
               <form className="evtForm">
+<<<<<<< HEAD
                 <div  className="form-group">
                   <label htmlFor="eventHost">
                     {/* Event Host Name */}
                   </label>
+=======
+                <div style={formStyle} className="form-group">
+                  <label htmlFor="eventHost">{/* Event Host Name */}</label>
+>>>>>>> 8266efdf6011f616b887fcb9f3c27b707f9de31c
                   <input
                     onChange={this.handleChange}
                     type="text"
-                    className="form-control formStyle"
+                    className="form-control formStyle eventHost"
                     name="eventHost"
                     value={this.state.host}
                     placeholder="Host Name"
                   ></input>
                 </div>
-                
+
                 <div className="two form-group">
-                  <label htmlFor="eventName">
-                    {/* Event Name */}
-                  </label>
+                  <label htmlFor="eventName">{/* Event Name */}</label>
                   <input
                     onChange={this.handleChange}
                     type="text"
@@ -135,9 +205,7 @@ class CreateEventPage extends Component {
                   ></input>
                 </div>
                 <div className="three form-group">
-                  <label htmlFor="eventAddress">
-                    {/* Event Address */}
-                  </label>
+                  <label htmlFor="eventAddress">{/* Event Address */}</label>
                   <input
                     onChange={this.handleChange}
                     type="text"
@@ -148,58 +216,51 @@ class CreateEventPage extends Component {
                   ></input>
                 </div>
                 <div className="four form-group">
-                  <label htmlFor="eventZip">
-                    {/* Event Zip code */}
-                  </label>
+                  <label htmlFor="eventZip">{/* Event Zip code */}</label>
                   <input
                     onChange={this.handleChange}
                     type="text"
                     className="form-control formStyle"
                     name="zipCode"
                     value={this.state.zip}
-                    placeholder="zip code"
+                    placeholder="Zip Code"
                   ></input>
                 </div>
 
                 <div className="five form-group">
-                  <label htmlFor="eventGuests">
-                    {/* Maximum Guests */}
-                  </label>
+                  <label htmlFor="eventGuests">{/* Maximum Guests */}</label>
                   <input
                     onChange={this.handleChange}
                     type="text"
                     className="form-control formStyle"
                     name="maxGuests"
                     value={this.state.maxGuests}
-                    placeholder="max guests"
+                    placeholder="Max Guests"
                   ></input>
                 </div>
                 <div className="six form-group">
-                  <label htmlFor="description">
-                    {/* Event Description */}
-                  </label>
+                  <label htmlFor="description">{/* Event Description */}</label>
                   <input
                     onChange={this.handleChange}
                     type="text"
                     className="form-control formStyle"
                     name="description"
                     value={this.state.description}
-                    placeholder="description"
+                    placeholder="Description"
                   ></input>
                 </div>
                 <div className="seven form-group">
-                  <label htmlFor="eventDate">
-                    
-                  </label>
+                  <label htmlFor="eventDate"></label>
                   <br></br>
                   <SingleDatePicker
                     date={this.state.date}
                     onDateChange={(date) => this.setState({ date: date })}
                     focused={this.state.focused}
                     onFocusChange={({ focused }) => this.setState({ focused })}
-                    className="formStyle"
+                    className="formStyle Date"
                   />
                 </div>
+<<<<<<< HEAD
                 <div  className = 'form-group'>
                 <label htmlFor='eventImg'>
                   Add event Image here 
@@ -238,12 +299,27 @@ class CreateEventPage extends Component {
               src={rectangle2}
             /> */}
             
+=======
+
+                <Link to="/">
+                  <button
+                    type="div"
+                    onClick={this.handleSubmit}
+                    className="create anima-smart-layers-pointers"
+                  >
+                    Create
+                  </button>
+                </Link>
+              </form>
+            </div>
+>>>>>>> 8266efdf6011f616b887fcb9f3c27b707f9de31c
           </div>
         </div>
       </div>
     );
   }
 }
+<<<<<<< HEAD
 
 
 // import React , {Component}from "react";
@@ -531,3 +607,6 @@ class CreateEventPage extends Component {
 
 export default CreateEventPage;
 
+=======
+export default CreateEventPage;
+>>>>>>> 8266efdf6011f616b887fcb9f3c27b707f9de31c

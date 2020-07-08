@@ -231,7 +231,7 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
-              <button className="join anima-smart-layers-pointers " type="submit" style={buttonStyle}>
+              <button style={buttonStyle} className="join anima-smart-layers-pointers " type="submit">
                 join
               </button>
             </form>

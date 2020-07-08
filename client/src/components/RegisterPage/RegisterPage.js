@@ -37,10 +37,6 @@ const buttonStyle = {
   transform: 'rotate(0deg)',
   opacity: 1
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
 class RegisterPage extends Component {
   constructor(props) {
     super(props);
@@ -86,13 +82,9 @@ class RegisterPage extends Component {
   };
   render() {
     const { errors } = this.state;
-<<<<<<< HEAD
-    // console.log(errors.password)
-=======
     console.log(errors)
     console.log({errors})
 
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
     return (
       <div style={firstDivStyle}>
         <input id="anPageName" name="page" type="hidden" value="register" />
@@ -239,11 +231,7 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
-<<<<<<< HEAD
-              <button style={buttonStyle} className="join anima-smart-layers-pointers " type="submit">
-=======
               <button className="join anima-smart-layers-pointers " type="submit" style={buttonStyle}>
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
                 join
               </button>
             </form>

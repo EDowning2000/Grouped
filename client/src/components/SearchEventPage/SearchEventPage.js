@@ -255,4 +255,4 @@ class SearchEventPage extends Component {
     );
   }
 }
-
+export default SearchEventPage;

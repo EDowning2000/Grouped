@@ -106,14 +106,8 @@ class CreateEventPage extends Component {
             </Link> */}
 
             <div className="wrapper">
-<<<<<<< HEAD
               <form className="evtForm">
-                <div style={formStyle} className="form-group">
-=======
-              
-              <form>
-                <div className="one  form-group">
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
+                <div  className="form-group">
                   <label htmlFor="eventHost">
                     {/* Event Host Name */}
                   </label>
@@ -206,8 +200,7 @@ class CreateEventPage extends Component {
                     className="formStyle"
                   />
                 </div>
-<<<<<<< HEAD
-                <div style={formStyle} className = 'form-group'>
+                <div  className = 'form-group'>
                 <label htmlFor='eventImg'>
                   Add event Image here 
                 
@@ -221,22 +214,13 @@ class CreateEventPage extends Component {
                 </input>
                 </div>
                 <Link to= '/'><button
-=======
-                
-                <button
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
                   type="button"
                   onClick={this.handleSubmit}
                   className="create anima-smart-layers-pointers"
                   
                 >
-<<<<<<< HEAD
                   Submit
                 </button></Link>
-=======
-                  Create
-                </button>
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
               </form>
             </div>
 
@@ -247,24 +231,20 @@ class CreateEventPage extends Component {
           <div className="zipcode">Zip Code:</div>
           <div className="mmddyyyy">MM/DD/YYYY:</div>
           <div className="time">Time:</div> */}
-<<<<<<< HEAD
-            {/* <div className="create anima-smart-layers-pointers">Create</div> */}
-=======
-            <img
+            {/* <img
               alt="rectangle pic"
               anima-src={rectangle2}
               className="rectangle2"
               src={rectangle2}
-            />
+            /> */}
             
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
           </div>
         </div>
       </div>
     );
   }
 }
-<<<<<<< HEAD
+
 
 // import React , {Component}from "react";
 // import "./style.scss";
@@ -548,9 +528,6 @@ class CreateEventPage extends Component {
 //   }
 // }
 // export default CreateEventPage;
-=======
-<<<<<<< HEAD
+
 export default CreateEventPage;
-=======
->>>>>>> 399078085d9f2918bd8f5505f6e211b80e12f682
->>>>>>> ef599b24a864ff69cc2417b3cf8d680fc915c952
+

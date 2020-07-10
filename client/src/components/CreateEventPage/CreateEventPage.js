@@ -174,15 +174,10 @@ class CreateEventPage extends Component {
             </Link>
             <div className="wrapper">
               <form className="evtForm">
-<<<<<<< HEAD
                 <div  className="form-group">
                   <label htmlFor="eventHost">
                     {/* Event Host Name */}
                   </label>
-=======
-                <div style={formStyle} className="form-group">
-                  <label htmlFor="eventHost">{/* Event Host Name */}</label>
->>>>>>> 8266efdf6011f616b887fcb9f3c27b707f9de31c
                   <input
                     onChange={this.handleChange}
                     type="text"
@@ -260,7 +255,6 @@ class CreateEventPage extends Component {
                     className="formStyle Date"
                   />
                 </div>
-<<<<<<< HEAD
                 <div  className = 'form-group'>
                 <label htmlFor='eventImg'>
                   Add event Image here 
@@ -299,27 +293,12 @@ class CreateEventPage extends Component {
               src={rectangle2}
             /> */}
             
-=======
-
-                <Link to="/">
-                  <button
-                    type="div"
-                    onClick={this.handleSubmit}
-                    className="create anima-smart-layers-pointers"
-                  >
-                    Create
-                  </button>
-                </Link>
-              </form>
-            </div>
->>>>>>> 8266efdf6011f616b887fcb9f3c27b707f9de31c
           </div>
         </div>
       </div>
     );
   }
 }
-<<<<<<< HEAD
 
 
 // import React , {Component}from "react";
@@ -607,6 +586,3 @@ class CreateEventPage extends Component {
 
 export default CreateEventPage;
 
-=======
-export default CreateEventPage;
->>>>>>> 8266efdf6011f616b887fcb9f3c27b707f9de31c

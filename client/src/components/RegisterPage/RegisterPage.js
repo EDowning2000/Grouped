@@ -4,7 +4,7 @@ import "./style.scss";
 import { Link, withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { registerUser } from "../../authActions/authActions";
+// import { registerUser } from "../../authActions/authActions";
 
 import rectangle1 from "../../Images/registerImg/register-rectangle-1@2x.png";
 import rectangle2 from "../../Images/registerImg/register-rectangle-copy-2@2x.png";
@@ -49,9 +49,9 @@ class RegisterPage extends Component {
     };
   }
 
-  componentDidMount() {
-    if (this.props.auth.isAuthenticated) this.props.history.push("/home");
-  }
+  // componentDidMount() {
+  //   if (this.props.auth.isAuthenticated) this.props.history.push("/home");
+  // }
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.auth.isAuthenticated) this.props.history.push("/home");
@@ -78,7 +78,7 @@ class RegisterPage extends Component {
     };
 
     // console.log(newUser);
-    this.props.registerUser(newUser, this.props.history);
+    // this.props.registerUser(newUser, this.props.history);
   };
   render() {
     const { errors } = this.state;
@@ -231,9 +231,11 @@ class RegisterPage extends Component {
                 })}
               />
               <span className="red-text">{errors.password2}</span>
+              <Link to="/home">
               <button style={buttonStyle} className="join anima-smart-layers-pointers " type="submit">
                 join
               </button>
+              </Link>
             </form>
 
             <Link to="/">
@@ -257,7 +259,5 @@ const mapStateToProps = (state) => ({
   errors: state.errors,
 });
 
-export default connect(mapStateToProps, { registerUser })(
-  withRouter(RegisterPage)
-);
+export default RegisterPage
 

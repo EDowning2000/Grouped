@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classnames from "classnames";
-import { loginUser } from "../../authActions/authActions";
+// import { loginUser } from "../../authActions/authActions";
 import "./style.scss";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
@@ -53,9 +53,9 @@ class LoginPage extends Component {
       errors: {},
     };
   }
-  componentDidMount() {
-    if (this.props.auth.isAuthenticated) this.props.history.push("/home");
-  }
+  // componentDidMount() {
+  //   if (this.props.auth.isAuthenticated) this.props.history.push("/home");
+  // }
   componentWillReceiveProps(nextProps) {
     if (nextProps.auth.isAuthenticated) this.props.history.push("/home");
     if (nextProps.errors) {
@@ -264,4 +264,4 @@ const mapStateToProps = (state) => ({
   errors: state.errors,
 });
 
-export default connect(mapStateToProps, { loginUser })(LoginPage);
+export default LoginPage;

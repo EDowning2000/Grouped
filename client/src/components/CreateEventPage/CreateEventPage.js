@@ -256,10 +256,10 @@ class CreateEventPage extends Component {
                   />
                 </div>
                 <div  className = 'form-group'>
-                <label htmlFor='eventImg'>
+                {/* <label htmlFor='eventImg'>
                   Add event Image here 
                 
-                </label>
+                </label> */}
                 <input type= 'file' accept='image/*' multiple='false'
                 onChange={this.handleImgUpload} ref = {this.imageUploader}
                 style={{

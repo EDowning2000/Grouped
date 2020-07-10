@@ -9,7 +9,8 @@ const eventSchema = new Schema({
   description: {type: String, required: false},
   zipCode:{type: String, required: true},
   date:{type: Date, default: Date.now},
-  time:{type: String, required: false}
+  time:{type: String, required: false},
+  address:{type: String, required: false}
 })
 
 // const Event = 

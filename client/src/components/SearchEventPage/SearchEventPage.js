@@ -251,7 +251,8 @@ class SearchEventPage extends Component {
                   return (
                   //bring I iinto function assign to event className 
                   
-                    <div class="card col-sm-4" style={{ cardStyle }}>
+                  
+                    <div class="card col-sm-3" style={{ cardStyle }}>
                       <div class="card-body">
                         <img alt="event picture"
                         className= 'eventImg'
@@ -264,6 +265,7 @@ class SearchEventPage extends Component {
                         <Link to = {`/single/${event.id}`}><button class="btn btn lg">See full event!</button></Link>
                       </div>
                     </div>
+                    
                     
                     
 

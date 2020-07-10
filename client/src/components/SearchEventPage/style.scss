@@ -11,6 +11,15 @@
   background-color    : rgba(23, 24, 65, 1.0);
   opacity             : 1.0;
 }
+.card{
+  position: relative;
+  top: 320px;
+  width: fit-content;
+  margin-right: 30px;
+  margin-left: 50px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
 a {
   text-decoration     : none;
 }

@@ -222,17 +222,21 @@ class SearchEventPage extends Component {
             className="rectanglecopy7 anima-animate-enter9"
             src={rectangle7}
           /> 
-
-            <div className="grouped">Grouped</div> 
+            <Link to="/home"><div className="grouped">Grouped</div></Link>
+            
             <Link to="/home">
-            <div className="home1 anima-smart-layers-pointers ">Home</div>
-          </Link>
-          <Link to="/user">
-            <div className="profile anima-smart-layers-pointers ">Profile</div>
-          </Link>
-          <Link to="/about">
-            <div className="about1 anima-smart-layers-pointers ">About</div>
-          </Link>
+              <div className="home1 anima-smart-layers-pointers ">Home</div>
+            </Link>
+
+            <Link to="/user">
+              <div className="profile anima-smart-layers-pointers ">
+                Profile
+              </div>
+            </Link>
+
+            <Link to="/about">
+              <div className="about1 anima-smart-layers-pointers ">About</div>
+            </Link>
             {/* <div className="enterzip">Enter Zip</div> */}
             {/* <img
             alt="rectangle pic"

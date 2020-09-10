@@ -103,7 +103,7 @@ class SearchEventPage extends Component {
     return (
       <div style={firstDivStyle}>
         
-        <input id="anPageName" name="page" type="hidden" value="searchevent" />
+        {/* <input id="anPageName" name="page" type="hidden" value="searchevent" /> */}
         <div className="searchevent anima-word-break ">
 
 
@@ -233,17 +233,17 @@ class SearchEventPage extends Component {
           <Link to="/about">
             <div className="about1 anima-smart-layers-pointers ">About</div>
           </Link>
-            <div className="enterzip">Enter Zip</div>
-            <img
+            {/* <div className="enterzip">Enter Zip</div> */}
+            {/* <img
             alt="rectangle pic"
             anima-src={rectangle2}
             className="rectangle2"
             src={rectangle2}
-          />
+          /> */}
 
-            <div className="search anima-smart-layers-pointers ">Search</div>
+            {/* <div className="search anima-smart-layers-pointers ">Search</div> */}
 
-            <div className="rectangle3"></div>
+            {/* <div className="rectangle3"></div> */}
             <div class="container">
             <div class="row">
               {
